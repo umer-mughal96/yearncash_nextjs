@@ -1,0 +1,2221 @@
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("../public/assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: "poppins-regular";
+  src: url("../public/assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-SemiBold";
+  src: url("../public/assets/fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("../public/assets/fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url("../public/assets/fonts/Poppins-Medium.ttf");
+}
+/* 
+body.light-mode {
+  background-color: red;
+  color: #333;
+  transition: background-color 0.3s ease;
+} */
+
+body.dark-mode {
+	background-color: #10171d;
+	color: white;
+}
+body.dark-mode .hero .currency-name{
+	color: black;
+}
+body.dark-mode-btn{
+	background: red;
+	color: #ffffff;
+	border: none;
+}
+body.dark-mode body.dark-mode-btn{
+	background: #000000;
+	color:#ffffff;
+}
+body.dark-mode-btn i{
+	font-size: 30px;
+}
+body.dark-mode .hero .currency-rate{
+	color: black;
+}
+body.dark-mode .yearn-cash-copy form input{
+	border: 2px solid #000000;
+}
+body.dark-mode .yearn-cash-copy form button{
+	background: #000000;
+	border: 2px solid #000000;
+}
+body.dark-mode .roadmap-page h2{
+	color: #000000;
+}
+body.dark-mode header{
+	background: #10171d;
+	color: #ffffff;
+}
+.bright-mode-btn{
+  background: none;
+  color: #fff;
+  border: none;
+}
+.dark-mode-btn{
+  background: none;
+  color: #fff;
+  border: none;
+}
+body.dark-mode .testimonial-card{
+	background-color: #10171d;
+  
+  border: 1px solid #ffffff36;
+}
+body.dark-mode .testimonial-card:hover{
+  box-shadow: 0px 0px 10px #ffffff;
+  transition: 0.5s ease-in-out;
+  transform: scale(1.04);
+}
+body.dark-mode .testimonial-card:hover .social-icons a i{
+  color: #ffffff;
+}
+body.dark-mode .testimonial-card .person-name h3{
+	color: #ffffff;
+}
+body.dark-mode .custom-btn{
+	background: #10171d;
+}
+body.dark-mode .testimonial-card .person-desc p{
+	color: #ffffff;
+}
+body.dark-mode footer{
+	background: #10171d;
+	color: #ffffff;
+  box-shadow: 0px 0px 10px #ffffff52;
+}
+body.dark-mode .yearcash-chart .yearcash-stat{
+	background-color: #10171d;
+}
+body.dark-mode footer .copyright-wrap{
+	background-color: #10171d;
+	color: #ffffff;
+}
+body.dark-mode section:not(.hero){
+	background: #10171d;
+	color: #ffffff;
+  box-shadow: 0px 0px 10px #ffffff4a;
+}
+body.dark-mode ul li a{
+	color: #ffffff;
+}
+body.dark-mode h1,body.dark-mode h2, body.dark-mode  h3, body.dark-mode  h4, body.dark-mode  h5, body.dark-mode h6{
+	color: #ffffff;
+}
+body.dark-mode .whitepaper-heading h2{
+	color:#ffffff;
+  padding-top: 40px;
+}
+body.dark-mode .roadmap-page .road-map-banner{
+  padding-top: 40px;
+}
+ .roadmap-page .road-map-banner h1{
+  color: #143022;
+} 
+.dark-mode .roadmap-page .road-map-banner h1{
+  color: #ffffff;
+}
+
+body.dark-mode .hero ul li a{
+  color: #000000;
+}
+body.dark-mode .invest-page h2 , .invest-page h5{
+	color: #000000;
+}
+body.dark-mode .hero .hero-waves .wave1{
+	fill:#ffffff1f;
+}
+body.dark-mode .hero .hero-waves .wave2{
+   fill:#ffffff1f;
+}
+body.dark-mode  .hero .hero-waves .wave3{
+   fill:#ffffff1f;
+}
+.hero .hero-waves .wave1{
+  fill:rgba(255,255,255, .1);
+}
+.hero .hero-waves .wave2{
+  fill:rgba(255,255,255, .2);
+}
+.hero .hero-waves .wave3{
+  fill:#fff;
+}
+
+.dark-mode-toggle {
+  display: flex;
+}
+.dark-mode-toggle > button {
+  font-size: 1.2em;
+  background: none;
+  border: none;
+  color: #FFE600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.dark-mode-toggle > button:last-child {
+  color: white;
+}
+.dark-mode-toggle > button:focus {
+  outline: none;
+}
+.toggle-control {
+  position: relative;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+}
+input[type='checkbox'].dmcheck {
+  width: 40px;
+  height: 10px;
+  background: #555;
+  position: relative;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  vertical-align: 2px;
+  outline: none;
+}
+input[type='checkbox'].dmcheck:checked + label {
+  left: 30px;
+}
+input[type='checkbox'].dmcheck:focus-visible {
+  outline: solid 2px white;
+}
+input[type='checkbox'].dmcheck + label {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  background: #fff;
+  opacity: 0.9;
+  background-color: #F6F6F6;
+}
+
+
+body a{
+  text-decoration: none;
+  font-family: "poppins-regular";
+}
+img{
+  width: 100%;
+} 
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+  font-family: "poppins-regular" !important;
+}
+body p{
+  font-size: 14px;
+}
+section:not(.hero) {
+	padding: 80px 0px;
+}
+
+body h1 {
+	font-size: 36px;
+	line-height: 55px;
+	font-family: "poppins-bold";
+	color: #ffffff;
+}
+
+body h2 {
+	font-size: 36px;
+	line-height: 43px;
+	font-family: "poppins-bold";
+	color: #143022;
+}
+body h3{
+	font-size: 24px;
+	line-height: 35px;
+	font-family: "poppins-bold"
+}
+body h6{
+	font-size: 24px;
+	line-height: 35px;
+	font-family: "poppins-bold";
+}
+body .custom-contain {
+    max-width: 1225px;
+}
+/*---------------------- Header ---------------------*/
+.custom-nav .active a{
+  font-family: "Poppins-SemiBold";
+}
+.site-logo{
+  height: 50px;
+  width: 9%;
+}
+.site-logo img{
+  height: 100%;
+}
+.custom-contain{
+	max-width: 1225px;
+}
+header {
+	background-color: #0B7F42;
+}
+.bar1, .bar2, .bar3 {
+	width: 35px;
+	height: 5px;
+	background-color: #ffffff;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+  
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-9px, 6px);
+	transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-8px, -8px);
+	transform: rotate(45deg) translate(-8px, -8px);
+}
+.social-icons i {
+	color: #ffffff;
+	padding: 0px 15px;
+	font-size: 20px;
+}
+
+.navbar-nav li a {
+	color: #ffffff;
+}
+
+.navbar .navbar-toggler-icon i {
+	color: #ffffff;
+}
+
+.custom-nav {
+	max-width: 925px;
+	margin: auto;
+	padding: 48px 0px;
+}
+.custom-nav-spacing{
+	padding-bottom: 30px;
+}
+
+.custom-nav ul {
+	background: #FFFFFF;
+	padding: 14px 40px;
+	max-width: 778px;
+	margin: auto;
+	border-radius: 39px;
+	box-shadow: 0px 0px 6px #00000029;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-nav ul li {
+	display: inline-block;
+}
+
+.custom-nav ul li a {
+	color: #000000;
+	display: inline-flex;
+	font-size: 18px;
+    padding: 0.5rem 1rem;
+}
+/*---------------------- End Header ---------------------*/
+
+/*---------------------- Hero Section ---------------------*/
+
+.hero {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(to bottom, transparent ,#0B7F42), url(../public/assets/images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  height: auto;
+}
+.hero .currency-bar-wrap{
+	width: 100%;
+}
+.hero .currency-bar-wrap ul{
+	padding: 6px 0px;
+}
+.currency-bar{
+  background-color: #ffffff;
+}
+body .marquee{
+  background-color: white;
+  padding: 10px 0px;
+}
+body .marquee-container{
+  padding: 0px;
+}
+.hero .currency-bar{
+  margin-bottom: 0px;
+}
+.hero .currency-bar .currency-info .icon img{
+  width: 26px;
+}
+.hero .currency-bar li{
+  display: inline-flex;
+  padding: 0px 6px;
+}
+.hero .currency-bar li span{
+  padding: 0px 2px;
+}
+.hero .currency-bar .currency-info .percentage-change{
+  font-family: "poppins-regular";
+}
+.hero .currency-bar .change-up{
+  color: #4E8733;
+}
+.hero .currency-bar .change-down{
+  color: red;
+}
+.hero .currency-bar li .currency-name{
+  font-family: "poppins-bold";
+}
+
+.hero .hero-content {
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.hero h1 {
+	margin-bottom: 0px;
+}
+
+.hero p {
+	color: #fff;
+	max-width: 1018px;
+	margin: auto;
+	padding: 35px 0px;
+  font-size: 16px;
+  font-family: "Poppins-SemiBold";
+}
+.transparent-hero{
+	background: none;
+}
+
+.hero .carousel-control-next-icon,
+.hero .carousel-control-prev-icon {
+	background: none;
+	font-size: 48px;
+	line-height: 1;
+	width: auto;
+	height: auto;
+}
+
+.hero .btn-get-started {
+	font-family: "Raleway", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 32px;
+	border-radius: 50px;
+	transition: 0.5s;
+	line-height: 1;
+	margin: 10px;
+	color: #fff;
+	-webkit-animation-delay: 0.8s;
+	animation-delay: 0.8s;
+	border: 2px solid #ef6603;
+}
+
+.hero .btn-get-started:hover {
+	background: #ef6603;
+	color: #fff;
+	text-decoration: none;
+}
+
+.custom-link {
+	background: none;
+	color: #ffffff;
+	font-family: "poppins-bold";
+	font-size: 15px;
+}
+
+.hero-waves {
+	display: block;
+	width: 100%;
+	height: 60px;
+	position: relative;
+}
+
+.wave1 use {
+	-webkit-animation: move-forever1 10s linear infinite;
+	animation: move-forever1 10s linear infinite;
+	-webkit-animation-delay: -2s;
+	animation-delay: -2s;
+}
+
+.wave2 use {
+	-webkit-animation: move-forever2 8s linear infinite;
+	animation: move-forever2 8s linear infinite;
+	-webkit-animation-delay: -2s;
+	animation-delay: -2s;
+}
+
+.wave3 use {
+	-webkit-animation: move-forever3 6s linear infinite;
+	animation: move-forever3 6s linear infinite;
+	-webkit-animation-delay: -2s;
+	animation-delay: -2s;
+}
+
+@-webkit-keyframes move-forever1 {
+	0% {
+		transform: translate(85px, 0%);
+	}
+	100% {
+		transform: translate(-90px, 0%);
+	}
+}
+
+@keyframes move-forever1 {
+	0% {
+		transform: translate(85px, 0%);
+	}
+	100% {
+		transform: translate(-90px, 0%);
+	}
+}
+
+@-webkit-keyframes move-forever2 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+
+@keyframes move-forever2 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+
+@-webkit-keyframes move-forever3 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+
+@keyframes move-forever3 {
+	0% {
+		transform: translate(-90px, 0%);
+	}
+	100% {
+		transform: translate(85px, 0%);
+	}
+}
+/*---------------------- End Hero Section ---------------------*/
+
+/*---------------------- Home ---------------------*/
+
+/*---------------------- YearnCash Chart Section ---------------------*/
+.yearcash-chart-Rank{
+  text-align: right;
+}
+.yearcash-chart-price{
+  text-align: right;
+}
+.yearcash-chart-price .rank h2{
+  padding: 0px;
+}
+.yearcash-chart .yearcash-stat{
+	background-color: #FFFFFF;
+	box-shadow: 0px 8px 40px #B2B2B2CC;
+  border-radius: 0px 0px 8px 8px;
+}
+.yearcash-chart  .stat-header{
+	border-radius: 8px 8px 0px 0px;
+  border-bottom: 1px solid #000000;
+  align-items: center;
+}
+.yearcash-chart .change span{
+	font-family: "poppins-bold";
+	font-size: 22px;
+}
+.yearcash-chart .change-down{
+	color: #E90F0F;
+}
+.yearcash-chart .change-up{
+	color: #0FE95F;
+}
+.yearcash-chart .stat-avatar{
+	width: 50px;
+}
+.yearcash-chart .row{
+	padding: 20px 10px;
+}
+.yearcash-chart h2{
+	font-size: 20px;
+	margin-bottom: 0px;
+	line-height: 32px;
+	padding-left: 18px;
+}
+.yearcash-chart h2 span{
+	font-family: "poppins-light";
+}
+.yearcash-chart .currency-desc{
+	padding-left: 70px;
+	margin-top: -12px;
+}
+.yearcash-chart .avatar-text-wrapper{
+	display: flex;
+}
+.yearcash-chart .stat-avatar img{
+	border-radius: 50%;
+}
+.yearcash-chart .yearcash-stat .col:last-child{
+	text-align: right;
+}
+
+/*---------------------- End YearnCash Chart Section ---------------------*/
+
+/*---------------------- About us Section ---------------------*/
+.about-us .container .row:last-child {
+	padding-top: 40px;
+}
+.about-us .second-row .second-para-wrapper{
+	display: flex;
+	align-self: center;
+  text-align: right;
+}
+.about-us .second-row .aboutus-second-para p:last-child {
+	margin-bottom: 0px;
+}
+.about-illustration-wrap-last img{
+  height: 300px;
+  border-radius: 20px;
+}
+/*---------------------- End About us Section ---------------------*/
+/*---------------------- Token Metrics Section ---------------------*/
+.tokken-metrics{
+	background-color: #0B7F42;
+}
+.tokken-metrics h2{
+	color: #ffffff;
+}
+.tokken-metrics .progress-name {
+    padding-top: 14px;
+}
+.tokken-metrics .progress-name h5 {
+  color: #ffffff;
+}
+.tokken-metrics .progress-name span{
+	font-family: "poppins-semibold";
+	font-size: 24px;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+.tokken-metrics .progress-bars-row{
+	padding-top: 66px;
+  width: 80%;
+  margin: 0 auto;
+}
+.CircularProgress{
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+body .progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 15px solid #f2f5f5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 15px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color: rgb(250, 245, 245);
+    text-align: center;
+    position: absolute;
+}
+.progress.blue .progress-bar{
+    border-color: #143022;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #143022;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #143022;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #143022;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(220deg);
+        transform: rotate(220deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(200deg);
+        transform: rotate(200deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+/*---------------------- End Token Metrics Section ---------------------*/
+/*---------------------- Allocation Section ---------------------*/
+.allocation{
+	background: #F7FDFB;
+}
+.allocation ul li{
+	font-family: 'poppins-bold';
+	font-size: 24px;
+}
+.allocation ul li span{
+	font-family: "poppins-regular";
+	font-size: 18px;
+}
+/*---------------------- End Allocation Section ---------------------*/
+
+/*---------------------- Why Us Section ---------------------*/
+.why-us h3{
+	max-width: 880px;
+    margin: auto;
+	padding-bottom: 20px;
+}
+.why-us p{
+	max-width: 992px;
+	margin: auto;
+	padding: 20px 0px;
+}
+
+/*---------------------- End Why Us Section ---------------------*/
+/*---------------------- Yearncash App Section ---------------------*/
+.yearncash-app{
+	background-color: #0B7F42;
+}
+.yearncash-app .app-btns a:first-child{
+	padding-right: 20px;
+}
+.yearncash-app p{
+	font-family: "poppins-light";
+	font-size: 36px;
+	color: #FFFFFF;
+	max-width: 400px;
+	margin: auto;
+	line-height: 49px;
+	padding: 30px 0px;
+}
+.yearncash-app a img{
+	width: 170px;
+}
+body .custom-btn{
+	padding: 8px 20px;
+	border: 1px solid #ffffff;
+	border-radius: 12px;
+	background: #0B7F42;
+	color: #FFFFFF;
+	font-size: 15px;
+	font-family: "poppins-semibold";
+}
+body .rounded-btn{
+	color: #ffffff;
+	background: transparent;
+	border-radius: 25px;
+	padding: 8px 20px;
+	
+}
+/*---------------------- End Yearncash App Section ---------------------*/
+
+/*---------------------- Call To Action Section ---------------------*/
+.cta{
+	background: #F7FDFB;
+}
+.cta h2{
+	font-size: 32px;
+	font-family: "poppins-regular";
+}
+.cta p{
+	max-width: 457px;
+	margin: auto;
+}
+.cta .btn-wrapper{
+	padding-top: 38px;
+}
+/*---------------------- End Call To Action Section ---------------------*/
+
+/*---------------------- End Home ---------------------*/
+
+
+/*---------------------- Team ---------------------*/
+
+.team-page .partners .main-desc p{
+	max-width: 682px;
+	margin: auto;
+	font-family: "poppins-regular";
+}
+.main-desc img{
+  width: 200px;
+  height: 200px;
+}
+/*---------------------- Partners ---------------------*/
+.partners .comapany-logos{
+  padding: 20px 0px;
+}
+.partners .comapany-logos a img{
+  width: 120px;
+}
+.partners .comapany-logos a{
+  padding: 0px 20px;
+}
+.partners .main-desc p{
+	font-size: 18px;
+    font-family: 'poppins-bold';
+    max-width: 1128px;
+    margin: auto;
+	padding-bottom: 40px;
+}
+.testimonial-card-wrap{
+	padding: 24px 0px;
+    position: relative;
+}
+.testimonial-card {
+	background-color: #F7FDFB;
+	padding: 29px 37px;
+	max-width: 345px;
+	min-height: 486px;
+  position: relative;
+}
+.testimonial-card .testimonial-img-wrap{
+	width: 194px;
+	margin: auto;
+}
+.testimonial-card .testimonial-img-wrap .testimonial-img{
+	border-radius: 50%;
+  width: 100%;
+  height: 100%;
+	border: 2px solid #0B7F42;
+}
+.testimonial-card .person-name h3{
+	color: #143022;
+	padding-top: 12px;
+	padding-bottom: 6px;
+	margin-bottom: 0px;
+}
+.testimonial-card .person-role span{
+	font-size: 18px;
+    font-family: "poppins-regular";
+}
+.testimonial-card .person-desc p{
+	padding-top: 14px;
+	font-size: 14px;
+	color: #000000;
+    font-family: "poppins-regular";
+}
+.testimonial-card .social-icons i{
+	color: #0B7F42;
+	font-size: 20px;
+	padding: 0px 2px;
+  margin: 0px 3px;
+}
+.testimonial-card .social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.CircularProgressbar-text{
+  color:white;
+}
+/*---------------------- End Partners ---------------------*/
+/*---------------------- End Team ---------------------*/
+
+
+/*---------------------- Invest ---------------------*/
+.dark-mode .invest-container h2 , .dark-mode .invest-container h5{
+  color: #143022;
+}
+.dark-mode .invest-container .yearn-cash-heading h5{
+  color: #ffffff;
+}
+.Clipboard-box{
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+.Copied-text{
+    color: #0B7F42;
+    margin-left: 10px;
+}
+body .invest-container,
+.whitepaper-container {
+  max-width: 720px;
+  margin: auto;
+}
+.yearn-cash-copy,
+.yearn-cash-copi {
+  background: #f7fdfb;
+  text-align: center;
+  border-radius: 20px;
+  padding: 20px 42px 40px;
+  margin: 42px 15px;
+}
+.yearn-cash-copi {
+  text-align: left;
+}
+.yearn-cash-copy form input {
+  width: 400px;
+  border: 2px solid #0B7F42;
+  color: #0000005e;
+}
+.yearn-cash-copy form button {
+  background: #0B7F42;
+  border: 2px solid #0B7F42;
+  color: #fff;
+  font-weight: 600;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.yearn-cash-copy form input:focus {
+  outline: none;
+}
+.yearn-cash-copy form button:focus {
+  outline: none;
+}
+.exchange-images {
+  justify-content: center;
+}
+.yearn-cash-heading h5 {
+  text-align: center;
+}
+.yearn-cash-copi ul li {
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+.yearn-cash-copi img {
+  margin: 20px 0px;
+}
+.exchange-image img {
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .yearn-cash-copy,
+  .yearn-cash-copi {
+      padding: 20px 10px 40px;
+      margin: 42px 0px;
+  }
+  .yearn-cash-copy form input {
+      width: 217px;
+  }
+  .yearn-cash-copi ul li {
+      word-break: break-word;
+      font-size: 14px;
+  }
+  .yearn-cash-copy h2,
+  .whitepaper-heading h2 {
+      font-size: 24px;
+  }
+  .yearn-cash-heading h5,
+  .yearn-cash-copy h5 {
+      font-size: 16px;
+  }
+}
+
+/*---------------------- End Invest ---------------------*/
+
+
+/*---------------------- Wallet ---------------------*/
+.wallet-page .hero{
+	background: url('../public/assets/images/walet-hero.jpg') no-repeat;
+  width: 100%;
+  padding-bottom: 90px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:720px;
+  height: 720px;
+  position: relative;
+}
+body .wallet-hero-content{
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  top: 0px;
+}
+.wallet-page .hero .hero-content{
+    text-align: left;
+}
+
+.wallet-page .hero h1{
+	color: #0B7F42;
+}
+.wallet-page .hero p{
+    color: #212529;
+    padding: 10px 0px;
+    font-size: 20px;
+    font-size: 14px;
+}
+.wallet-page .about-wallet .main-desc p{
+	max-width: 829px;
+	margin: auto;
+	padding-bottom: 40px;
+  font-size: 14px;
+}
+.wallet-content-row{
+  padding: 40px 0px;
+  align-items: center;
+}
+.wallet-right-content{
+  text-align: right;
+}
+.wallet-left-content{
+  text-align: left;
+}
+.wallet-page .about-wallet .second-para-wrapper{
+	align-self: center;
+}
+.security-video video{
+  border-radius: 20px;
+}
+.synergy img{
+	width: initial;
+}
+.synergy p{
+	max-width: 834px;
+	margin: auto;
+	padding-bottom: 70px;
+}
+.concentration-areas{
+	background:#F7FDFB;
+}
+.concentration-areas h2{
+	padding-bottom: 32px;
+}
+.concentration-areas ul li{
+	font-size: 18px;
+}
+.tokenization p{
+	max-width: 886px;
+	margin: auto;
+}
+.wallet-page .why-us h2{
+	font-size: 54px;
+}
+.yearncash-app .mobile-mockup img{
+	max-width: 340px;
+}
+.wallet-page .yearncash-app .rounded-btn{
+	border: 1px solid #000000;
+	color: #000000;
+}
+.note p{
+	max-width: 720px;
+	margin: auto;
+}
+.second-yEARN-Wallet{
+  text-align: right;
+}
+.wallet-right-content h2 span{
+    font-style: italic;
+}
+.security-video{
+  width: 100%;
+  border-radius: 20px;
+}
+/*---------------------- End Wallet ---------------------*/
+
+
+/*---------------------- Whitepapper ---------------------*/
+/* .invest-container,
+.whitepaper-container {
+  max-width: 720px;
+  margin: auto;
+} */
+.whitepaper-heading {
+  text-align: center;
+  }
+  .whitepaper-heading h2 {
+  color: #153527;
+  font-weight: 700;
+  }
+  .whitepaper-heading p {
+  font-size: 14px;
+  }
+  .whitepaper-download {
+  background: #0B7F42;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 100px 20px;
+  margin: 70px 0px;
+  }
+  .whitepaper-download img,.yearn-cash-copi img {
+  width: initial;
+}
+  .whitepaper-download h5 {
+  margin: 20px 0px;
+  }
+
+/*---------------------- End Whitepapper ---------------------*/
+
+
+/*---------------------- Rodemap ---------------------*/
+.Rodemap-wrapper{
+  background-color: black;
+}
+.roadmap-page header .custom-nav ul{
+	box-shadow: 0px 0px 6px #00000029;
+}
+
+.roadmap-page .hero{
+	background: none;
+}
+/*---------------------- End Header ---------------------*/
+/* The actual timeline (the vertical ruler) */
+.content h2 {
+	font-weight: revert;
+	font-size: 42px;
+  }
+  .roadmap-image p {
+	font-size: 18px;
+	font-weight: 400;
+	margin-bottom: 0px;
+  }
+  .road-map-banner {
+	text-align: center;
+	max-width: 700px;
+	margin: auto;
+  }
+  .roadmap-image {
+	display: flex;
+	align-items: center;
+  }
+  .roadmap-image img {
+	margin-right: 15px;
+	width: 45px;
+	height: 45px;
+  }
+  .timeline {
+	position: relative;
+	max-width: 1040px;
+	margin: 90px auto 90px;
+  }
+  .timeline p {
+	color: #153527;
+  }
+  
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+	content: "";
+	position: absolute;
+	width: 6px;
+	background-color: #0B7F42;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -3px;
+  }
+  
+  /* Container around content */
+  .containers {
+	padding: 10px 40px;
+	position: relative;
+	background-color: inherit;
+	width: 50%;
+  }
+  
+  /* The circles on the timeline */
+  .containers::after {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: -14px;
+	background-color: #0B7F42;
+	border: 4px solid #0B7F42;
+	top: 15px;
+	border-radius: 50%;
+	z-index: 1;
+  }
+  
+  /* Place the container to the left */
+  .left {
+	left: -4px;
+  }
+  
+  /* Place the container to the right */
+  .right {
+	left: 50%;
+  }
+  
+  /* Add arrows to the left container (pointing right) */
+  .left::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	right: 30px;
+	border: medium solid #000;
+	border-width: 10px 0 10px 10px;
+	border-color: transparent transparent transparent white;
+	display: none;
+  }
+  
+  /* Add arrows to the right container (pointing left) */
+  .right::before {
+	content: " ";
+	height: 0;
+	position: absolute;
+	top: 22px;
+	width: 0;
+	z-index: 1;
+	left: 30px;
+	border: medium solid #000;
+	border-width: 10px 10px 10px 0;
+	border-color: transparent white transparent transparent;
+	display: none;
+  }
+  
+  /* Fix the circle for containers on the right side */
+  .right::after {
+	left: -10px;
+	top: 0;
+  }
+  
+  /* The actual content */
+  .content {
+	padding: 10px 20px;
+	background-color: #f7fdfb;
+	position: relative;
+	border-radius: 20px;
+	border: 2px solid #0B7F42;
+  }
+  
+  /* Media queries - Responsive timeline on screens less than 600px wide */
+  @media screen and (max-width: 767px) {
+	/* Place the timelime to the left */
+	.timeline::after {
+		left: 10px;
+	}
+	.road-map-banner p {
+		font-size: 14px;
+	}
+	.road-map-banner h1 {
+		font-size: 24px;
+	}
+	.roadmap-image p {
+		font-size: 14px;
+	}
+	.timeline {
+		margin: 50px auto 50px;
+	}
+	.content {
+		padding: 10px 10px;
+	}
+	.content h2 {
+		font-size: 24px;
+	}
+	.roadmap-image img {
+		margin-right: 10px;
+		width: 25px;
+		height: 25px;
+	}
+  
+	/* Full-width containers */
+	.containers {
+		width: 100%;
+		padding-left: 45px;
+		padding-right: 0px;
+	}
+  
+	/* Make sure that all arrows are pointing leftwards */
+	.containers::before {
+		left: 60px;
+		border: medium solid white;
+		border-width: 10px 10px 10px 0;
+		border-color: transparent white transparent transparent;
+	}
+  
+	/* Make sure all circles are at the same spot */
+	.right::after {
+		left: 0px;
+	}
+	.left::after {
+		left: 4px;
+	}
+	/* Make all right containers behave like the left ones */
+	.right {
+		left: 0%;
+	}
+  }
+/*---------------------- End Rodemap ---------------------*/
+
+
+/*---------------------- footer ---------------------*/
+footer{
+	background: #FFFFFF;
+	box-shadow: 0px 0px 6px #00000029;
+
+}
+footer .site-name h6 {
+	color: #0B7F42;
+	font-family: "poppins-semibold";
+}
+footer .footer-logo{
+	width: 76%;
+}
+footer ul li a{
+	color: #000000;
+	font-size: 14px;
+}
+footer .row{
+	padding: 64px 0px;
+}
+footer ul li{
+	padding: 10px 0px;
+}
+footer .copyright-wrap{
+	background: #0B7F42;
+	padding: 14px 0px;
+}
+footer .copyright-wrap span{
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "poppins-regular";
+}
+/*---------------------- End footer ---------------------*/
+@media screen and (max-width: 767px) {
+  /* Place the timelime to the left */
+   .timeline::after {
+       left: 10px;
+  }
+   .road-map-banner p {
+       font-size: 14px;
+  }
+   .road-map-banner h1 {
+       font-size: 24px;
+  }
+   .roadmap-image p {
+       font-size: 14px;
+  }
+   .timeline {
+       margin: 50px auto 50px;
+  }
+   .content {
+       padding: 10px 10px;
+  }
+   .content h2 {
+       font-size: 24px;
+  }
+   .roadmap-image img {
+       margin-right: 10px;
+       width: 25px;
+       height: 25px;
+  }
+  /* Full-width containers */
+   .containers {
+       width: 100%;
+       padding-left: 45px;
+       padding-right: 0px;
+  }
+  /* Make sure that all arrows are pointing leftwards */
+   .containers::before {
+       left: 60px;
+       border: medium solid white;
+       border-width: 10px 10px 10px 0;
+       border-color: transparent white transparent transparent;
+  }
+  /* Make sure all circles are at the same spot */
+   .right::after {
+       left: 0px;
+  }
+   .left::after {
+       left: 4px;
+  }
+  /* Make all right containers behave like the left ones */
+   .right {
+       left: 0%;
+  }
+}
+@media screen and (max-width: 991px) {
+  table {
+      border: 0;
+ }
+  table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+ }
+  table tr {
+      border: 1px solid #0B7F42;
+      display: block;
+      margin-bottom: 0.625em;
+      background: #f7fdfb;
+ }
+  table td {
+      border-bottom: 1px solid #0B7F42;
+      display: block;
+      text-align: right;
+ }
+  table td::before {
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+ }
+  table td:last-child {
+      border-bottom: 0;
+ }
+}
+@media (max-width: 767px) {
+  .side-details.right-bar {
+      margin: 5px 0px;
+ }
+  .side-details p, .side-details h5, .side-details.right-bar p, .side-details.right-bar h5, .total-balance p span {
+      font-size: 16px;
+ }
+  .total-balance p {
+      font-size: 16px;
+ }
+  .side-details img {
+      width: 25px;
+      height: 25px;
+ }
+  .wallet-heading h2 {
+      font-size: 20px;
+ }
+}
+@media (max-width: 767px) {
+  .yearn-cash-copy, .yearn-cash-copi {
+      padding: 20px 10px 40px;
+      margin: 42px 0px;
+ }
+  .yearn-cash-copy form input {
+      width: 217px;
+ }
+  .yearn-cash-copi ul li {
+      word-break: break-word;
+      font-size: 14px;
+ }
+  .yearn-cash-copy h2, .whitepaper-heading h2 {
+      font-size: 24px;
+ }
+  .yearn-cash-heading h5, .yearn-cash-copy h5 {
+      font-size: 16px;
+ }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
+   .navbar-nav {
+       visibility: hidden;
+  }
+  #navbarSupportedContent{
+      width: auto;
+  }
+  #navbarSupportedContent .social-icons{
+    margin-left: auto;
+  }
+  .header-wrapper .navbar {
+    width: 90%;
+    margin: 0 auto;
+  }
+  /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
+   section:not(.hero) {
+       padding: 70px 0px;
+  }
+   .navbar-nav {
+       visibility: hidden;
+  }
+  /*--------------------------- Yearncash Chart --------------------------------*/
+   .yearcash-chart .row {
+       padding: 20px 10px;
+       margin: 0px;
+  }
+  /*--------------------------- End Yearncash Chart --------------------------------*/
+  /*--------------------------- Tokken metrics --------------------------------*/
+   .tokken-metrics .progress-name span {
+       font-size: 20px;
+  }
+  /*---------------------------End Tokken metrics --------------------------------*/
+  /*--------------------------- Partners --------------------------------*/
+   .testimonial-card {
+       min-height: 430px;
+  }
+   .testimonial-card .testimonial-img-wrap {
+       width: 130px;
+       margin: auto;
+  }
+  /*--------------------------- End Partners --------------------------------*/
+  /*--------------------------- Wallet --------------------------------*/
+
+  .wallet-page .hero .hero-content{
+		padding-top: 500px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(2) .wallet-desc{
+		padding-left: 20px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(3) .wallet-desc{
+		padding-right: 20px;
+	}
+
+  /*--------------------------- End Wallet --------------------------------*/
+  /*--------------------------- End Home Page -------------------------*/
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .navbar-brand{
+    width: 10%;
+  }
+  .header-wrapper .navbar {
+    width: 97%;
+    margin: 0 auto;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+
+ @media only screen and (max-width: 768px){
+    .wallet-page .hero {
+        height: 400px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .social-icons i {
+      padding: 0px 6px;
+    }
+    .dark-mode-toggle {
+      padding-top: 10px;
+    }
+    .site-logo {
+      height: 50px;
+      width: 15%;
+    }
+    .header-wrapper .navbar {
+      width: 95%;
+      margin: 0 auto;
+    }
+    
+   body {
+       font-size: 14px;
+  }
+   section:not(.hero) {
+       padding: 60px 0px;
+  }
+  body h1 {
+       font-size: 30px;
+       line-height: 38px;
+  }
+  body h2 {
+       font-size: 28px;
+       line-height: 36px;
+  }
+  body h3{
+       font-size: 24px;
+       line-height: 35px;
+       font-family: "poppins-bold" 
+  }
+  body h6{
+       font-size: 24px;
+       line-height: 35px;
+       font-family: "poppins-bold";
+  }
+  /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
+  /*--------------------------- Yearncash Chart --------------------------------*/
+   .yearcash-chart .row {
+       padding: 20px 10px;
+       margin: 0px;
+  }
+   .yearcash-chart .change span {
+       font-size: 18px;
+  }
+  /*--------------------------- End Yearncash Chart --------------------------------*/
+  /*---------------------- Tokken Metrics Section ---------------------*/
+   .tokken-metrics .progress-bars-row {
+       padding-top: 30px;
+  }
+   .tokken-metrics .progress {
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+  }
+   .tokken-metrics .progress-name span {
+       font-size: 16px;
+       -space: pre-wrap;
+  }
+   .progress .progress-value{
+       font-size: 12px;
+  }
+  .tokken-metrics .progress-bars-row {
+    width: 100%;
+    margin: 0 auto;
+}
+  /*---------------------- End Tokken Metrics Section ---------------------*/
+  /*---------------------- Allocations Section ---------------------*/
+   .allocation h2{
+       text-align: center;
+  }
+  /*---------------------- End Allocations Section ---------------------*/
+  /*---------------------- Partners ---------------------*/
+
+   .testimonial-card {
+       min-height: 430px;
+  }
+   .testimonial-card .testimonial-img-wrap {
+       width: 120px;
+       margin: auto;
+  }
+   .testimonial-card-wrap {
+       padding: 10px 0px;
+  }
+  /*---------------------- wallet ---------------------*/
+  .wallet-page .hero {
+    background-size: 500px;
+  }
+  .hero .hero-content {
+		padding-top: 140px;
+	}
+	.synergy img{
+		max-width:360px;
+	}
+	.concentration-areas ul li {
+		font-size: 16px;
+	}
+	.wallet-page .why-us h2 {
+		font-size: 40px;
+	}
+	.yearncash-app .mobile-mockup {
+		padding-bottom: 40px;
+	}
+	.yearncash-app p {
+		padding: 10px 0px;
+	}
+
+  /*---------------------- End wallet ---------------------*/
+
+  /*---------------------- End Partners ---------------------*/
+  /*---------------------- Footer ---------------------*/
+   footer ul li a{
+       word-break: break-all;
+  }
+  /*---------------------- End Footer ---------------------*/
+  /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .dark-mode-toggle {
+    padding-top: 10px;
+  }
+  .wallet-left-content {
+    text-align: center;
+  }
+  .wallet-page .hero {
+    background-size: 500px;
+  }
+  .wallet-right-content {
+    text-align: center;
+  }
+  .about-us .second-row .second-para-wrapper{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .site-logo {
+    height: 50px;
+    width: 20%;
+  }
+  .header-wrapper .navbar {
+    width: 95%;
+    margin: 0 auto;
+  }
+   body {
+       font-size: 14px;
+       text-align: center;
+  }
+  body h1 {
+       font-size: 30px;
+       line-height: 38px;
+  }
+  body h2 {
+       font-size: 24px;
+       line-height: 32px;
+       text-align: center;
+  }
+  body h3{
+       font-size: 16px;
+       line-height: 24px;
+  }
+  body h6{
+       font-size: 16px;
+       line-height: 24px;
+  }
+   section:not(.hero) {
+       padding: 40px 0px;
+  }
+  /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
+  /*---------------------- Hero Section ---------------------*/
+   .hero .hero-content {
+       padding-top: 20px;
+  }
+   .hero p {
+       padding: 10px 0px;
+  }
+  /*---------------------- End Hero Section ---------------------*/
+  /*--------------------------- Yearncash Chart --------------------------------*/
+   .yearcash-chart .row {
+       padding: 14px 6px;
+       margin: 0px;
+       white-space: nowrap;
+       overflow-x: auto;
+       overflow-y:hidden;
+       flex-wrap: nowrap;
+  }
+   .yearcash-stat .col{
+       font-size: 10px;
+  }
+   .yearcash-chart .currency-desc{
+       margin-top: -30px;
+  }
+   .yearcash-chart .change span {
+       font-size: 12px;
+  }
+   .yearcash-chart h2 {
+       font-size: 14px;
+       text-align: left;
+       padding-left: 8px;
+       line-height: 22px;
+  }
+   .yearcash-chart .currency-desc {
+       padding-left: 0px;
+       padding-top: 10px;
+  }
+   .yearcash-chart .rank h2{
+       text-align: right;
+  }
+  /*--------------------------- End Yearncash Chart --------------------------------*/
+  /*---------------------- Tokken Metrics Section ---------------------*/
+   .tokken-metrics .progress-bars-row {
+       padding-top: 16px;
+  }
+   .tokken-metrics .progress-box{
+       padding-bottom: 26px;
+  }
+   .tokken-metrics .progress {
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+  }
+   .tokken-metrics .progress-name span {
+       font-size: 16px;
+  }
+   .tokken-metrics .progress-name{
+       padding-top: 6px;
+  }
+   .progress .progress-value{
+       font-size: 12px;
+  }
+  .CircularProgress {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 50px auto;
+}
+  /*---------------------- End Tokken Metrics Section ---------------------*/
+  /*---------------------- Allocations Section ---------------------*/
+   .allocation h2{
+       text-align: center;
+  }
+   .allocation ul li {
+       font-size: 16px;
+  }
+   .allocation ul li span {
+       font-size: 14px;
+  }
+  /*---------------------- End Allocations Section ---------------------*/
+  /*---------------------- Partners Section ---------------------*/
+   .partners .main-desc p {
+       font-size: 14px;
+  }
+   .testimonial-card {
+       min-height: 400px;
+       max-width: 100%;
+  }
+   .testimonial-card .person-desc p {
+       padding-top: 6px;
+       margin-bottom: 0px;
+  }
+   .testimonial-card .testimonial-img-wrap {
+       width: 120px;
+       margin: auto;
+  }
+   .testimonial-card-wrap {
+       padding: 10px 0px;
+  }
+  /*---------------------- End Partners Section ---------------------*/
+  /*---------------------- Yearncash App Section ---------------------*/
+   .yearncash-app p {
+       font-size: 18px;
+       line-height: 26px;
+       padding: 10px 0px;
+  }
+   .yearncash-app .app-btns a{
+       display: block;
+  }
+   .yearncash-app .app-btns a img{
+       padding:6px 30px;
+  }
+   .yearncash-app .app-btns a:first-child{
+       padding-right: 0px;
+  }
+  /*----------------------End Yearncash App Section ---------------------*/
+  /*---------------------- Cta Section ---------------------*/
+   .cta h2 {
+       font-size: 18px;
+  }
+  /*----------------------End Cta Section ---------------------*/
+
+  /*---------------------- wallet ---------------------*/
+
+  .wallet-page .hero{
+		/* background: linear-gradient(to bottom, #00000070 ,#000000a6), url(../images/hero-2.png); */
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.wallet-page .hero .hero-content {
+		padding-top: 70px;
+	}
+	.synergy img{
+		max-width:100%;
+	}
+	.wallet-page .why-us h2 {
+		font-size: 30px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(2){
+		padding: 6px 0px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(3){
+		padding: 10px 0px;
+	}
+	.wallet-page .about-wallet .main-desc p {
+		padding-bottom: 20px;
+	}
+	.wallet-page .about-wallet .wallet-desc{
+		padding-top: 16px;
+	}
+	.concentration-areas ul li {
+		font-size: 14px;
+		text-align: left;
+	}
+	.yearncash-app .mobile-mockup img {
+		max-width: 180px;
+	}
+	.yearncash-app .mobile-mockup {
+		padding-bottom: 20px;
+	}
+  /*----------------------End wallet ---------------------*/
+
+  /*---------------------- Footer ---------------------*/
+   footer .footer-logo {
+       margin: auto;
+  }
+   footer .row {
+       padding: 40px 0px;
+  }
+  /*---------------------- End Footer ---------------------*/
+  /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .dark-mode-toggle {
+    justify-content: space-around;
+    padding-top: 10px;
+  }
+  .wallet-left-content {
+    text-align: center;
+  }
+  .wallet-page .hero {
+    background-size: 500px;
+  }
+  .wallet-right-content {
+    text-align: center;
+  }
+  .about-us .second-row .second-para-wrapper{
+    display: flex;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .site-logo {
+    height: 50px;
+    width: 25%;
+  }
+  .header-wrapper .navbar {
+    width: 95%;
+    margin: 0 auto;
+  }
+   body {
+       font-size: 14px;
+       text-align: center;
+  }
+  body h1 {
+       font-size: 30px;
+       line-height: 38px;
+  }
+  body h2 {
+       font-size: 24px;
+       line-height: 32px;
+       text-align: center;
+  }
+  body h3{
+       font-size: 16px;
+       line-height: 24px;
+  }
+  body h6{
+       font-size: 16px;
+       line-height: 24px;
+  }
+   section:not(.hero) {
+       padding: 40px 0px;
+  }
+  /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
+  /*---------------------- Hero Section ---------------------*/
+   .hero .hero-content {
+       padding-top: 20px;
+  }
+   .hero p {
+       padding: 10px 0px;
+  }
+  /*---------------------- End Hero Section ---------------------*/
+  /*--------------------------- Yearncash Chart --------------------------------*/
+   .yearcash-chart .row {
+       padding: 14px 6px;
+       margin: 0px;
+       white-space: nowrap;
+       overflow-x: auto;
+       overflow-y:hidden;
+       flex-wrap: nowrap;
+  }
+   .yearcash-stat .col{
+       font-size: 10px;
+  }
+   .yearcash-chart .currency-desc{
+       margin-top: -30px;
+  }
+   .yearcash-chart .change span {
+       font-size: 12px;
+  }
+   .yearcash-chart h2 {
+       font-size: 14px;
+       text-align: left;
+       padding-left: 8px;
+       line-height: 22px;
+  }
+   .yearcash-chart .currency-desc {
+       padding-left: 0px;
+       padding-top: 10px;
+  }
+   .yearcash-chart .rank h2{
+       text-align: right;
+  }
+  /*--------------------------- End Yearncash Chart --------------------------------*/
+
+  /*---------------------- Tokken Metrics Section ---------------------*/
+   .tokken-metrics .progress-bars-row {
+       padding-top: 16px;
+  }
+   .tokken-metrics .progress-box{
+       padding-bottom: 26px;
+  }
+   .tokken-metrics .progress {
+       width: 100px;
+       height: 100px;
+       line-height: 100px;
+  }
+   .tokken-metrics .progress-name span {
+       font-size: 16px;
+  }
+   .tokken-metrics .progress-name{
+       padding-top: 6px;
+  }
+   .progress .progress-value{
+       font-size: 12px;
+  }
+  .CircularProgress {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 50px auto;
+}
+  /*---------------------- End Tokken Metrics Section ---------------------*/
+  /*---------------------- Allocations Section ---------------------*/
+   .allocation h2{
+       text-align: center;
+  }
+   .allocation ul li {
+       font-size: 16px;
+  }
+   .allocation ul li span {
+       font-size: 14px;
+  }
+  /*---------------------- End Allocations Section ---------------------*/
+  /*---------------------- Partners Section ---------------------*/
+   .partners .main-desc p {
+       font-size: 14px;
+  }
+   .testimonial-card {
+       min-height: 400px;
+       max-width: 100%;
+  }
+   .testimonial-card .person-desc p {
+       padding-top: 6px;
+       margin-bottom: 0px;
+  }
+   .testimonial-card .testimonial-img-wrap {
+       width: 120px;
+       margin: auto;
+  }
+   .testimonial-card-wrap {
+       padding: 10px 0px;
+  }
+  /*---------------------- End Partners Section ---------------------*/
+  /*---------------------- Yearncash App Section ---------------------*/
+   .yearncash-app p {
+       font-size: 18px;
+       line-height: 26px;
+       padding: 10px 0px;
+  }
+   .yearncash-app .app-btns a{
+       display: block;
+  }
+   .yearncash-app .app-btns a img{
+       padding:6px 30px;
+  }
+   .yearncash-app .app-btns a:first-child{
+       padding-right: 0px;
+  }
+  /*----------------------End Yearncash App Section ---------------------*/
+  /*---------------------- Cta Section ---------------------*/
+   .cta h2 {
+       font-size: 18px;
+  }
+  /*----------------------End Cta Section ---------------------*/
+
+
+  /*---------------------- wallet ---------------------*/
+  .wallet-page .hero{
+		/* background: linear-gradient(to bottom, #00000070 ,#000000a6), url(../images/hero-2.png); */
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	.wallet-page .hero .hero-content {
+		padding-top: 70px;
+	}
+	.synergy img{
+		max-width:100%;
+	}
+	.wallet-page .why-us h2 {
+		font-size: 30px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(2){
+		padding: 6px 0px;
+	}
+	.wallet-page .about-wallet .container .row:nth-child(3){
+		padding: 10px 0px;
+	}
+	.wallet-page .about-wallet .main-desc p {
+		padding-bottom: 20px;
+	}
+	.wallet-page .about-wallet .wallet-desc{
+		padding-top: 16px;
+	}
+	.concentration-areas ul li {
+		font-size: 14px;
+		text-align: left;
+	}
+	.yearncash-app .mobile-mockup img {
+		max-width: 180px;
+	}
+	.yearncash-app .mobile-mockup {
+		padding-bottom: 20px;
+	}
+  /*----------------------End wallet ---------------------*/
+
+
+  /*---------------------- Footer ---------------------*/
+   footer .footer-logo {
+       margin: auto;
+  }
+   footer .row {
+       padding: 40px 0px;
+  }
+  /*---------------------- End Footer ---------------------*/
+  /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+}
+@media (max-width: 375px) {
+  .site-logo {
+    height: 50px;
+    width: 35%;
+  }
+}
+
+
+
+
+
+.owl-carousel.owl-drag .owl-item {
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: red;
+    text-align:center;
+}
