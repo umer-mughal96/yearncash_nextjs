@@ -3,7 +3,7 @@ import OwlCarousel from '@ntegral/react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
-const OwlCarouselC = () => {
+const Carousel = () => {
   return (
     <OwlCarousel className="owl-theme" loop margin={10} dots={false} navElement={true} items={6} nav>
       <div class="item">
@@ -70,4 +70,4 @@ const OwlCarouselC = () => {
   );
 };
 
-export default OwlCarouselC;
+export default Carousel;

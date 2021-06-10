@@ -8,12 +8,10 @@ import dynamic from 'next/dynamic'
 
 var stringify = require("json-stringify-safe");
 
-const MySlider = dynamic(
-  () => import("../components/OwlCarousel/OwlCarousel"),
-  // No need for SSR, when the module includes a library that only works in the
-  // browser.
-  { ssr: false }
-);
+// const MySlider = dynamic(
+//   () => import("../components/Carousel/Caorusel"),
+//   { ssr: false }
+// );
 
 export default function Home(props) {
   const [yfic, setYfic] = useState(JSON.parse(props.data));
@@ -379,7 +377,7 @@ export default function Home(props) {
             </div>
           </div>
           <div className="OwlCarousel-wrapper">
-            <MySlider />
+            {/* <MySlider /> */}
           </div>
   
         </div>
