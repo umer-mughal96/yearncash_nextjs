@@ -17,14 +17,14 @@ const codeofethics = (props) => {
         <div className="row whitepaper-container m-auto">
           <div className="col-md-12">
             <div className="whitepaper-heading">
-              <h2>Whitepaper</h2>
+              <h2>Code of Ethics</h2>
             </div>
           </div>
           <div className="col-md-12">
             <div className="whitepaper-download">
               <img src="assets/icons/file-icon.svg" alt="" />
-              <h5>Download whitepaper</h5>
-              <a href="/assets/YearnCash.pdf" download>
+              <h5>Download Code Of Ethics</h5>
+              <a href="/assets/CodeOfEthics.pdf" download>
                 <img src="assets/icons/download.svg" alt="" />
               </a>
             </div>

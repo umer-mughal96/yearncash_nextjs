@@ -5,6 +5,33 @@ const TeamMembers = () => {
   return (
     <div>
       <div className="row text-center">
+      <div className="col-md-6 col-lg-4 col-xl-4">
+          <div className="testimonial-card-wrap">
+            <div className="testimonial-card">
+              <div className="testimonial-img-wrap">
+                <img
+                  src="assets/images/testimonial.jpg"
+                  alt=""
+                  className="testimonial-img"
+                />
+              </div>
+              <div className="person-name">
+                <h3>Robin Impreza</h3>
+              </div>
+              <div className="person-role">
+                <span>CEO/Creator</span>
+              </div>
+              <div className="person-desc">
+                <p>
+                  Over 9 years experience in Blockchain technology. One of the
+                  first original developers on the Yearn Finance team. Top
+                  trader on Binance.
+                </p>
+              </div>
+              <SocialMedia />
+            </div>
+          </div>
+        </div>
         <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
@@ -63,7 +90,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team3.jpg"
+                  src="assets/images/team3.JPEG"
                   alt=""
                   className="testimonial-img"
                 />
@@ -134,33 +161,7 @@ const TeamMembers = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-4">
-          <div className="testimonial-card-wrap">
-            <div className="testimonial-card">
-              <div className="testimonial-img-wrap">
-                <img
-                  src="assets/images/testimonial.jpg"
-                  alt=""
-                  className="testimonial-img"
-                />
-              </div>
-              <div className="person-name">
-                <h3>Robin Impreza</h3>
-              </div>
-              <div className="person-role">
-                <span>CEO/Creator</span>
-              </div>
-              <div className="person-desc">
-                <p>
-                  Over 9 years experience in Blockchain technology. One of the
-                  first original developers on the Yearn Finance team. Top
-                  trader on Binance.
-                </p>
-              </div>
-              <SocialMedia />
-            </div>
-          </div>
-        </div>
+        
       </div>
     </div>
   );

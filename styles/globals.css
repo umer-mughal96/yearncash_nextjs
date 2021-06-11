@@ -1063,7 +1063,7 @@ body .invest-container,
 
 /*---------------------- Wallet ---------------------*/
 .wallet-page .hero{
-	background: url('../public/assets/images/walet-hero.jpg') no-repeat;
+	background: url('../public/assets/images/walet-hero.png') no-repeat;
   width: 100%;
   padding-bottom: 90px;
   background-position: center;
@@ -2218,4 +2218,52 @@ footer .copyright-wrap span{
     user-select: none;
     background-color: red;
     text-align:center;
+}
+/* timer */
+.timer{
+  background-color: #1E1C20;
+  color: #ffffff;
+}
+.timer h5{
+  font-family: "poppins-bold";
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 0px;
+}
+.timer form .custom-btn{
+  background: #ffffff;
+  color: #000000;
+  border-radius: 30px;
+  padding: 8px 40px;
+}
+.timer form input{
+  background: #2d2a2d;
+  border: none;
+  padding: 14px 18px;
+}
+.timer form input::placeholder{
+  color: #ffffff;
+}
+.timer form .form-check span{
+  color: rgba(255, 255, 255, 0.329);
+}
+.timer i{
+  font-size: 30px;
+  padding-bottom: 16px;
+}
+.timer p{
+  font-family: "poppins-bold";
+  color: #20AA61;
+  font-size: 26px;
+}
+@media screen and (max-width:767.98px){
+  .timer .col{
+      flex-basis: auto;
+      padding: 10px 0px  ;
+  }
+  .timer p {
+      font-family: "poppins-bold";
+      color: #20AA61;
+      font-size: 18px;
+  }
 }

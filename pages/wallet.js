@@ -178,7 +178,7 @@ const Wallet = (props) => {
               <div className="row wallet-content-row">
                 <div className="col-md-6 col-lg-6 col-xl-6 order-2 order-md-1">
                   <div className="about-illustration-wrap about-illustration-wrap-last">
-                    <img src="assets/images/security-new-img.JPG" alt="" />
+                    <img src="assets/images/Beta.JPG" alt="" />
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6 col-xl-6 order-md-2 order-1">
@@ -203,6 +203,64 @@ const Wallet = (props) => {
             </div>
           </div>
         </section>
+        {/* <!---------------------- Timer Section ---------------------> */}
+        <section class="timer">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <p>Follow us on Telegram Before</p>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col">
+                        <div class="months">
+                            <h5>09</h5>
+                            <span>months</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="days">
+                            <h5>07</h5>
+                            <span>Days</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hours">
+                            <h5>07</h5>
+                            <span>Hours</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="minutes">
+                            <h5>45</h5>
+                            <span>MINUTES</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="seconds">
+                            <h5>17</h5>
+                            <span>Seconds</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-12 pt-4">
+                        <i class="far fa-chevron-double-down"></i>
+                        <form action="">
+                            {/* <!-- <input type="text" class="w-100"> --> */}
+                            {/* <!-- <div class="form-check pt-4">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1"><span>I agree with the </span> Privacy Policy</label>
+                            </div> --> */}
+                            <div class="btn-wrap pt-4">
+                                <button class="custom-btn">Telegram</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* <!---------------------- End Timer Section ---------------------> */}
         {/* <!---------------------- End About Wallet Section ---------------------> */}
       </div>
     </div>

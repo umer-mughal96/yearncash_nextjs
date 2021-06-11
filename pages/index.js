@@ -355,25 +355,25 @@ export default function Home(props) {
           <div className="row text-center">
             <div className="col-md-12">
               <h2>YFIC Partners</h2>
-              {/* <div className="comapany-logos">
-                <p>
+              <div className="comapany-logos">
+                {/* <p>
                   Projects that launch through YFIC will have the opportunity to
                   pitch their project to our KOL network. Through our private
                   Telegram channel, we aim to streamline Marketing, <br />
                   Advisory and Strategic Partnership connections between project
                   leaders and well known KOLs within the DeFi community. Use of
                   our KOL group is without obligation, but highly recommended.
-                </p>
-                <a href="https://dancannabis.com/">
+                </p> */}
+                {/* <a href="https://dancannabis.com/">
                 <img src="assets/images/wallet-new-logo.JPG" alt="" />
+                </a> */}
+                <a href="#">
+                <img src="assets/images/chainlinkLabsLogo.png" alt="" />
                 </a>
                 <a href="#">
-                <img src="assets/images/metrc-logo2.png" alt="" />
+                <img src="assets/images/chainlinkLabsLogo2.jpg" alt="" />
                 </a>
-                <a href="#">
-                <img src="assets/images/chainlink-labs-logo2.png" alt="" />
-                </a>
-              </div> */}
+              </div>
             </div>
           </div>
           <div className="OwlCarousel-wrapper">

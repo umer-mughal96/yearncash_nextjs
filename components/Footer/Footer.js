@@ -35,6 +35,7 @@ const Footer = () => {
                 <div className="col-md-3">
                     <h6>Contact</h6>
                     <ul className="list-unstyled">
+                        <li><a target="_blank" href="https://mail.google.com/mail">support@yearncash.io</a></li>
                         <li><a target="_blank" href="https://mail.google.com/mail">support@yearnwallet.io</a></li>
                         {/* <li><Link href="/">+0091-24654-1261</Link></li> */}
                     </ul>
