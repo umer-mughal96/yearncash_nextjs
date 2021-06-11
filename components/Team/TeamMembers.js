@@ -63,22 +63,20 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/testimonial.jpg"
+                  src="assets/images/team3.jpg"
                   alt=""
                   className="testimonial-img"
                 />
               </div>
               <div className="person-name">
-                <h3>Robin Impreza</h3>
+                <h3>Muhammad Hamza </h3>
               </div>
               <div className="person-role">
-                <span>CEO/Creator</span>
+                <span>Lead Developer</span>
               </div>
               <div className="person-desc">
                 <p>
-                  Over 9 years experience in Blockchain technology. One of the
-                  first original developers on the Yearn Finance team. Top
-                  trader on Binance.
+                  Over 10 years of IT Experience - 6 years of blockchain experience - dApps specialist and blockchain consultant
                 </p>
               </div>
               <SocialMedia />
@@ -90,22 +88,20 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/testimonial.jpg"
+                  src="assets/images/team4.JPEG"
                   alt=""
                   className="testimonial-img"
                 />
               </div>
               <div className="person-name">
-                <h3>Robin Impreza</h3>
+                <h3>Chris wise</h3>
               </div>
               <div className="person-role">
-                <span>CEO/Creator</span>
+                <span>Chief Technical Officer ( CTO )</span>
               </div>
               <div className="person-desc">
                 <p>
-                  Over 9 years experience in Blockchain technology. One of the
-                  first original developers on the Yearn Finance team. Top
-                  trader on Binance.
+                Over 20 years of IT experience 5 years of Project Management experience/10 years of IT security experience
                 </p>
               </div>
               <SocialMedia />
