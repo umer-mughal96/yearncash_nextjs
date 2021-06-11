@@ -10,7 +10,7 @@ const Wallet = (props) => {
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
   return (
     <div>
-      <Layout title="Wallet" />
+      <Layout title="Introduction to yEARN Wallet Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto! " />
       <div className="wallet-page">
         <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center">
           <div className="container custom-contain wallet-hero-content">
@@ -38,18 +38,14 @@ const Wallet = (props) => {
           <div className="container custom-contain">
             <div className="row text-center">
               <div className="col-md-12">
-                {/* <h2>yEARN Wallet</h2> */}
-                <h2>Introduction to yEARN Wallet</h2>
+                <h2>yEARN Wallet</h2>
                 <div className="main-desc">
-                  {/* <p>
+                  <p>
                     First and foremost, our aim is to be your one stop mobile
                     solution for safely storing and EARNing Cryptocurrency. In
                     our mobile application, users can easily EARN, Stake, Swap,
                     Transfer, and even play Games to win Crypto! Users also
                     enjoy $0 tansfer fees between yEARN Wallet accounts.
-                  </p> */}
-                  <p>
-                    Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto!
                   </p>
                 </div>
               </div>
