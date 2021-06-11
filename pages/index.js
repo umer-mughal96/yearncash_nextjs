@@ -350,12 +350,12 @@ export default function Home(props) {
       </section>
       {/* <!---------------------- End Why Us Section ---------------------> */}
       {/* <!---------------------- Partners Section ---------------------> */}
-      <section className="partners">
+      <section className="partners pt-0">
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
               <h2>YFIC Partners</h2>
-              <div className="comapany-logos">
+              <div className="mt-5 comapany-logos">
                 {/* <p>
                   Projects that launch through YFIC will have the opportunity to
                   pitch their project to our KOL network. Through our private
