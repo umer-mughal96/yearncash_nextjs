@@ -370,8 +370,8 @@ export default function Home(props) {
                 <a href="#">
                 <img src="assets/images/chainlinkLabsLogo.png" alt="" />
                 </a>
-                <a href="#">
-                <img src="assets/images/chainlinkLabsLogo2.jpg" alt="" />
+                <a href="https://dancannabis.com/">
+                <img src="assets/images/chainlinkLabsLogo2.JPG" alt="" />
                 </a>
               </div>
             </div>

@@ -38,14 +38,18 @@ const Wallet = (props) => {
           <div className="container custom-contain">
             <div className="row text-center">
               <div className="col-md-12">
-                <h2>yEARN Wallet</h2>
+                {/* <h2>yEARN Wallet</h2> */}
+                <h2>Introduction to yEARN Wallet</h2>
                 <div className="main-desc">
-                  <p>
+                  {/* <p>
                     First and foremost, our aim is to be your one stop mobile
                     solution for safely storing and EARNing Cryptocurrency. In
                     our mobile application, users can easily EARN, Stake, Swap,
                     Transfer, and even play Games to win Crypto! Users also
                     enjoy $0 tansfer fees between yEARN Wallet accounts.
+                  </p> */}
+                  <p>
+                    Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto!
                   </p>
                 </div>
               </div>
