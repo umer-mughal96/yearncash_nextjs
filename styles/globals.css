@@ -2267,3 +2267,25 @@ footer .copyright-wrap span{
       font-size: 18px;
   }
 }
+
+/* maintenance */
+.maintenance-contaioner{
+  width:50%;
+  margin:100px auto;
+  text-align:center;
+}
+.maintenance-text h2{
+  font-size:25px;
+  font-family: "Poppins-Bold";
+}
+.maintenance-img{
+  width:70%;
+  margin:0 auto;
+}
+.maintenance-text{
+  margin-top:50px;
+}
+.maintenance-text p{
+  margin-bottom: 0px;
+  font-family: "poppins-regular";
+}
