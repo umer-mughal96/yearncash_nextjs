@@ -1063,12 +1063,13 @@ body .invest-container,
 
 /*---------------------- Wallet ---------------------*/
 .wallet-page .hero{
-	background: url('../public/assets/images/walet-hero.png') no-repeat;
+	/* background: url('../public/assets/images/walet-hero.png') no-repeat; */
+	background: url('../public/assets/images/Badge.png') no-repeat;
   width: 100%;
   padding-bottom: 90px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:400px;
+  background-size:250px;
   height: 720px;
   position: relative;
 }
