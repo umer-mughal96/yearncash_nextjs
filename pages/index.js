@@ -25,7 +25,7 @@ export default function Home(props) {
                 <img src="assets/images/maintenance.svg" alt="" srcset="" />
             </div>
             <div className="maintenance-text">
-                <h2>Hang on! We are under Manintenance</h2>
+                <h2>Hang on! We are under maintenance</h2>
                 {/* <p>it will not take a long time till we get the error fixed.</p>
                 <p>we will be live again shortly.</p> */}
             </div>
