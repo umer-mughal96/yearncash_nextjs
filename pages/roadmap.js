@@ -10,7 +10,7 @@ const roadmap = (props) => {
 
   return (
     <div>
-      <Layout title="Road Map" />
+      <Layout title="Yearn Cash (YFIC) Road Map" />
       <div className="roadmap-page">
         <SubHeader marqueeData={marqueeData}/>
         {/* <!-- ===================== Road Map Section  ======================== --> */}
@@ -99,7 +99,7 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="containers left">
+                <div className="containers left white-check">
                   <div className="content">
                     <h2>08</h2>
                     <div className="roadmap-image">
@@ -108,7 +108,7 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="containers right">
+                <div className="containers right white-check">
                   <div className="content">
                     <h2>09</h2>
                     <div className="roadmap-image">
@@ -117,7 +117,7 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="containers left">
+                <div className="containers left white-check">
                   <div className="content">
                     <h2>10</h2>
                     <div className="roadmap-image">
@@ -126,7 +126,7 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
-                <div className="containers right">
+                <div className="containers right white-check">
                   <div className="content">
                     <h2>11</h2>
                     <div className="roadmap-image">
@@ -134,6 +134,15 @@ const roadmap = (props) => {
                       <p>
                         Create a partnership with Ledger to stake cold wallet
                       </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="containers left white-check">
+                  <div className="content">
+                    <h2>12</h2>
+                    <div className="roadmap-image">
+                      <img src="assets/icons/wallet.svg" alt="" />{" "}
+                      <p>Find and conduct stake on partner platform</p>
                     </div>
                   </div>
                 </div>
