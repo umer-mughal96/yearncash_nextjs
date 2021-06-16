@@ -4,7 +4,7 @@ import ProgressBar from "../components/CircularProgress/ProgressBar";
 import HomeSubHeader from "../components/HomeSubHeader/HomeSubHeader";
 import Layout from "../components/Layout/Layout";
 // import TeamMembers from "../components/Team/TeamMembers";
-import dynamic from 'next/dynamic'
+import dynamic from "next/dynamic";
 
 var stringify = require("json-stringify-safe");
 
@@ -214,6 +214,19 @@ export default function Home(props) {
                 integrated). Creators can choose to either burn or lock the
                 Liquidity tokens retrieved as a result of the trade pair set-up.
               </p> */}
+              <p>
+                Yearn Cash seeks to be the cryptocurrency by the people and for
+                the people. Our intention is to be adopted for use as a peer-to
+                peer (P2P) payment system, which gives the power back to the
+                people as well as solve real world problems that are faced
+                daily. Yearn Cash is an ERC-20 Token, which are blockchain-based
+                assets that have value and can be received and sent. ERC-20
+                tokens reside on the Ethereum blockchain. Another key benefit of
+                Yearn Cash is that it uses the latest technological advances
+                such as Defi and is completely open to integration of future
+                industry developments, such as sharding and quantic tech amongst
+                other future developments.
+              </p>
             </div>
           </div>
           <div className="row second-row">
@@ -232,6 +245,17 @@ export default function Home(props) {
                   security and transparency in high regards.
                 </p>
               </div> */}
+              <p>
+                Yearn Cash is a protocol on the Ethereum blockchain. The purpose
+                of which is to offer the user a convenient and simple mobile
+                tool and decentralized product beyond the simple management of
+                decentralized applications. The ultimate goal of the Yearn Cash
+                protocol is to provide an integrated DeFi platform that users
+                and the community do not need to look for to use. In addition,
+                the Yearn Cash product also provides risk mitigation measures.
+                If we pay attention to all DeFi products, we see maximum market
+                and price manipulation.
+              </p>
             </div>
             <div className="col-md-6 order-1 order-md-2">
               <div className="about-illustration-wrap ">
@@ -253,7 +277,7 @@ export default function Home(props) {
           <div className="row progress-bars-row">
             <div className="col-md-3">
               <div className="CircularProgress">
-                <ProgressBar percentage={100} isPercentage={false}/>
+                <ProgressBar percentage={100} isPercentage={false} />
                 <div class="progress-name text-center">
                   <h5>Max Supply</h5>
                 </div>
@@ -261,7 +285,7 @@ export default function Home(props) {
             </div>
             <div className="col-md-3">
               <div className="CircularProgress">
-                <ProgressBar percentage={20} isPercentage={true}/>
+                <ProgressBar percentage={20} isPercentage={true} />
                 <div class="progress-name text-center">
                   <h5>HotBit</h5>
                 </div>
@@ -269,7 +293,7 @@ export default function Home(props) {
             </div>
             <div className="col-md-3">
               <div className="CircularProgress">
-                <ProgressBar percentage={10} isPercentage={true}/>
+                <ProgressBar percentage={10} isPercentage={true} />
                 <div class="progress-name text-center">
                   <h5>Uniswap</h5>
                 </div>
@@ -368,18 +392,15 @@ export default function Home(props) {
                 <img src="assets/images/wallet-new-logo.JPG" alt="" />
                 </a> */}
                 <a href="#">
-                <img src="assets/images/chainlinkLabsLogo.png" alt="" />
+                  <img src="assets/images/chainlinkLabsLogo.png" alt="" />
                 </a>
                 <a href="https://dancannabis.com/">
-                <img src="assets/images/chainlinkLabsLogo2.JPG" alt="" />
+                  <img src="assets/images/chainlinkLabsLogo2.JPG" alt="" />
                 </a>
               </div>
             </div>
           </div>
-          <div className="OwlCarousel-wrapper">
-            {/* <MySlider /> */}
-          </div>
-  
+          <div className="OwlCarousel-wrapper">{/* <MySlider /> */}</div>
         </div>
       </section>
       {/* <!---------------------- End Partners Section ---------------------> */}
@@ -414,9 +435,11 @@ export default function Home(props) {
                 vitae. Quisque sit amet nisi erat.
               </p> */}
               <div className="btn-wrapper">
-              <a target="_blank" href="https://t.me/yearnwallet">
-                <button className="btn custom-btn">Join Us On Telegram</button>
-              </a>
+                <a target="_blank" href="https://t.me/yearnwallet">
+                  <button className="btn custom-btn">
+                    Join Us On Telegram
+                  </button>
+                </a>
               </div>
             </div>
           </div>

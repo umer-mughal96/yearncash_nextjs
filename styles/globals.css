@@ -898,6 +898,7 @@ body .rounded-btn{
 }
 .partners .comapany-logos a img{
   width: 200px;
+  border-radius: 100%;
 }
 .partners .comapany-logos a{
   padding: 0px 20px;

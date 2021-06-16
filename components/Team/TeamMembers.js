@@ -1,11 +1,11 @@
 import React from "react";
-import SocialMedia from '../SocialMedia/SocialMedia';
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const TeamMembers = () => {
   return (
     <div>
       <div className="row text-center">
-      <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
@@ -103,7 +103,8 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                  Over 10 years of IT Experience - 6 years of blockchain experience - dApps specialist and blockchain consultant
+                  Over 10 years of IT Experience - 6 years of blockchain
+                  experience - dApps specialist and blockchain consultant
                 </p>
               </div>
               <SocialMedia />
@@ -128,7 +129,8 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                Over 20 years of IT experience 5 years of Project Management experience/10 years of IT security experience
+                  Over 20 years of IT experience 5 years of Project Management
+                  experience/10 years of IT security experience
                 </p>
               </div>
               <SocialMedia />
@@ -146,10 +148,10 @@ const TeamMembers = () => {
                 />
               </div>
               <div className="person-name">
-                <h3>Ryan Bettis</h3>
+                <h3>Likhon Sheikh</h3>
               </div>
               <div className="person-role">
-                <span>Chief Operating Officer (COO)</span>
+                <span>Creative Head</span>
               </div>
               <div className="person-desc">
                 <p>
@@ -161,7 +163,6 @@ const TeamMembers = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );
