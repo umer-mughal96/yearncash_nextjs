@@ -12,7 +12,7 @@ const Wallet = (props) => {
     <div>
       <Layout title="Introduction to yEARN Wallet Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto! " />
       <div className="wallet-page">
-        <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center">
+        <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center pb-0">
           <div className="container custom-contain wallet-hero-content">
             <div className="row">
               <Marqueee marqueeData={marqueeData} />
@@ -34,9 +34,10 @@ const Wallet = (props) => {
         </section>
         {/* <!---------------------- End Hero Section ---------------------> */}
         {/* <!---------------------- About Wallet Section ---------------------> */}
-        <section className="about-wallet">
+        <section className="about-wallet pt-0">
           <div className="container custom-contain">
-            <div className="row text-center">
+
+            {/* <div className="row text-center">
               <div className="col-md-12">
                 <h2>yEARN Wallet</h2>
                 <div className="main-desc">
@@ -49,7 +50,30 @@ const Wallet = (props) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            <div className="container custom-contain">
+                <div className="row wallet-content-row">
+                  <div className="col-md-6 col-lg-6 col-xl-6 order-2 order-md-1">
+                    <div className="about-illustration-wrap ">
+                      {/* <img src="assets/images/RealWorldSolutions.png" alt="" /> */}
+                      <ReactPlayer />
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-lg-6 col-xl-6 order-md-2 order-1">
+                    <div className="wallet-desc wallet-left-content">
+                      <h2>yEARN Wallet</h2>
+                      <p>
+                      First and foremost, our aim is to be your one stop mobile
+                      solution for safely storing and EARNing Cryptocurrency. In
+                      our mobile application, users can easily EARN, Stake, Swap,
+                      Transfer, and even play Games to win Crypto! Users also
+                      enjoy $0 tansfer fees between yEARN Wallet accounts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div className="about-wallet">
               <div className="container custom-contain">
@@ -72,8 +96,8 @@ const Wallet = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="about-illustration-wrap">
-                      {/* <img src="assets/images/security.svg" alt="" /> */}
-                      <ReactPlayer />
+                      <img src="assets/images/security.svg" alt="" />
+                      {/* <ReactPlayer /> */}
                     </div>
                   </div>
                 </div>
@@ -219,7 +243,7 @@ const Wallet = (props) => {
                   our KOL group is without obligation, but highly recommended.
                 </p> */}
                 <a href="https://dancannabis.com/">
-                <img src="assets/images/chainlinkLabsLogo.png" alt="" />
+                <img src="assets/images/team5.jpg" alt="" />
                 </a>
                 <a href="#">
                   <img src="assets/images/chainlinkLabsLogo.png" alt="" />

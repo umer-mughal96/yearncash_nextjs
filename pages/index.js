@@ -184,7 +184,7 @@ export default function Home(props) {
           <div className="row text-with-image-section-row">
             <div className="col-md-6">
               <div className="about-illustration-wrap">
-                <img src="assets/images/YFIC.svg" alt="" />
+                <img src="assets/images/image1.png" alt="" />
               </div>
             </div>
             <div className="col-md-6 text-with-image-section-text">
@@ -259,7 +259,8 @@ export default function Home(props) {
             </div>
             <div className="col-md-6 order-1 order-md-2">
               <div className="about-illustration-wrap ">
-                <img src="assets/images/YFICSTPES.svg" alt="" />
+                {/* <img src="assets/images/YFICSTPES.svg" alt="" /> */}
+                <img src="assets/images/yEARN-Wallet.png" alt="" />
               </div>
             </div>
           </div>
