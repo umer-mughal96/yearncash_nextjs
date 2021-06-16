@@ -4,6 +4,7 @@ import Marqueee from "../components/Marquee/Marquee";
 import Layout from "../components/Layout/Layout";
 import axios from "axios";
 import ReactPlayer from "../components/ReactPlayer/ReactPlayer";
+import Countdown from "../components/Countdwon/Countdown";
 var stringify = require("json-stringify-safe");
 
 const Wallet = (props) => {
@@ -243,36 +244,7 @@ const Wallet = (props) => {
                     </div>
                 </div>
                 <div class="row text-center">
-                    <div class="col">
-                        <div class="months">
-                            <h5>09</h5>
-                            <span>months</span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="days">
-                            <h5>07</h5>
-                            <span>Days</span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="hours">
-                            <h5>07</h5>
-                            <span>Hours</span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="minutes">
-                            <h5>45</h5>
-                            <span>MINUTES</span>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="seconds">
-                            <h5>17</h5>
-                            <span>Seconds</span>
-                        </div>
-                    </div>
+                    <Countdown/>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 pt-4">
