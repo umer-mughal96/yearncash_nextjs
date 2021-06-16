@@ -877,7 +877,44 @@ body .rounded-btn{
 	padding-top: 38px;
 }
 /*---------------------- End Call To Action Section ---------------------*/
-
+body .skylight-wrapper {
+  padding: 0px !important;
+}
+.skylight-dialog{
+  width: 50%;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -25%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  z-index: 100;
+  padding: 15px;
+  box-shadow: rgb(0 0 0 / 14%) 0px 0px 4px, rgb(0 0 0 / 28%) 0px 4px 8px;
+  transform: scale(1);
+  transition-property: transform;
+  transition-timing-function: ease;
+  transition-duration: 200ms;
+}
+body .skylight-close-button h2{
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  min-height: 170px;
+}
+.text-with-image-section-row{
+  align-items: center;
+}
+.text-with-image-section-text p{
+  line-height: 30px;
+  text-align: justify;
+  font-size: 18px;
+}
 /*---------------------- End Home ---------------------*/
 
 
@@ -1440,6 +1477,13 @@ footer .copyright-wrap span{
   color: #ffffff;
   font-size: 14px;
   font-family: "poppins-regular";
+}
+.Footer-wrapper .col-md-2 .list-unstyled li a{
+    display: flex;
+    align-items: center;
+}
+.Footer-wrapper .col-md-2 .list-unstyled li a i{
+  margin-right:5px;
 }
 /*---------------------- End footer ---------------------*/
 @media screen and (max-width: 767px) {
