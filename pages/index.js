@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import ProgressBar from "../components/CircularProgress/ProgressBar";
 import HomeSubHeader from "../components/HomeSubHeader/HomeSubHeader";
 import Layout from "../components/Layout/Layout";
-// import TeamMembers from "../components/Team/TeamMembers";
+import Model from "../components/Model/Model";
 import dynamic from "next/dynamic";
 
 var stringify = require("json-stringify-safe");
@@ -29,7 +29,7 @@ export default function Home(props) {
               <div className="avatar-text-wrapper">
                 <div className="stat-avatar">
                   {/* <img src={yfic && yfic?.data?.meta.logo_url} alt="" /> */}
-                  <img src="assets/images/YFIC.svg" alt="" />
+                  <img src="assets/images/team5.jpg" alt="" />
                 </div>
                 <h2>
                   YearnCash <span className="currency">(YFIC)</span>
@@ -181,13 +181,13 @@ export default function Home(props) {
       {/* <!---------------------- About Section ---------------------> */}
       <section className="about-us">
         <div className="container custom-contain">
-          <div className="row">
+          <div className="row text-with-image-section-row">
             <div className="col-md-6">
               <div className="about-illustration-wrap">
                 <img src="assets/images/YFIC.svg" alt="" />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 text-with-image-section-text">
               {/* <h2>What is YFIC?</h2>
               <p>
                 YFIC is an automated full-service Initial DEX Offering Launchpad
@@ -229,8 +229,8 @@ export default function Home(props) {
               </p>
             </div>
           </div>
-          <div className="row second-row">
-            <div className="col-md-6 second-para-wrapper order-md-1 order-2 ">
+          <div className="row second-row text-with-image-section-row">
+            <div className="col-md-6 second-para-wrapper order-md-1 order-2 text-with-image-section-text">
               {/* <div className="aboutus-second-para">
                 <p>
                   When an IDO is listed on our dashboard, all settings are
@@ -409,7 +409,8 @@ export default function Home(props) {
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
-              <button className="btn custom-btn rounded-btn">Download</button>
+              {/* <button className="btn custom-btn rounded-btn">Download</button> */}
+              <Model />
               <p>Smartphone based Wallet App</p>
               <div className="app-btns">
                 <a href="#">

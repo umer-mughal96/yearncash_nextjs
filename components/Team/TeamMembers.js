@@ -142,7 +142,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/testimonial.jpg"
+                  src="assets/images/team6.jpg"
                   alt=""
                   className="testimonial-img"
                 />
@@ -155,8 +155,7 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                  Successful entrepreneur 10 Years Project Manager experience
-                  MBA University of Arkansas
+                Creative Head to the team page.
                 </p>
               </div>
               <SocialMedia />
