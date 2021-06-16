@@ -203,6 +203,37 @@ const Wallet = (props) => {
             </div>
           </div>
         </section>
+        {/* <!---------------------- Partners Section ---------------------> */}
+      <section className="partners pt-0">
+        <div className="container custom-contain">
+          <div className="row text-center">
+            <div className="col-md-12">
+              <h2>Partners</h2>
+              <div className="mt-5 comapany-logos">
+                {/* <p>
+                  Projects that launch through YFIC will have the opportunity to
+                  pitch their project to our KOL network. Through our private
+                  Telegram channel, we aim to streamline Marketing, <br />
+                  Advisory and Strategic Partnership connections between project
+                  leaders and well known KOLs within the DeFi community. Use of
+                  our KOL group is without obligation, but highly recommended.
+                </p> */}
+                <a href="https://dancannabis.com/">
+                <img src="assets/images/chainlinkLabsLogo.png" alt="" />
+                </a>
+                <a href="#">
+                  <img src="assets/images/chainlinkLabsLogo.png" alt="" />
+                </a>
+                <a href="https://dancannabis.com/">
+                  <img src="assets/images/chainlinkLabsLogo2.JPG" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="OwlCarousel-wrapper">{/* <MySlider /> */}</div>
+        </div>
+      </section>
+      {/* <!---------------------- End Partners Section ---------------------> */}
         {/* <!---------------------- Timer Section ---------------------> */}
         <section class="timer">
             <div class="container">
