@@ -90,7 +90,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team3.JPEG"
+                  src="assets/images/team3.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
@@ -142,7 +142,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/testimonial.jpg"
+                  src="assets/images/testimonial.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
