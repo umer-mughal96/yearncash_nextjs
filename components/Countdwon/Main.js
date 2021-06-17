@@ -1,7 +1,6 @@
 import React from 'react';
 import moment from 'moment';
-import SettingsModal from './settings-modal';
-import Countdown from './countdown';
+
 
 class Countdownn extends React.Component {
 
@@ -168,7 +167,7 @@ class Countdownn extends React.Component {
         
         <main>
           {/* {this.state.isModalOpen ? <SettingsModal dateValue={this.state.dateValue} timeValue={this.state.timeValue} ampmValue={this.state.ampmValue} handleChange={this.handleChange} handleSubmit={this.handleSubmit} settingsFormError={this.state.settingsFormError} errorMessage={this.state.errorMessage} showModal={this.showModal} /> : null} */}
-          {this.state.isCountdownSet ? <Countdown countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} /> : <p className="message info-message"><span className="fa fa-info-circle fa-lg fa-fw"></span> {this.state.infoMessage}</p>}
+          {/* {this.state.isCountdownSet ? <Countdown countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} /> : <p className="message info-message"><span className="fa fa-info-circle fa-lg fa-fw"></span> {this.state.infoMessage}</p>} */}
         </main>
         <footer>Created by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a> &copy; {new Date().getFullYear()}</footer>
       </React.Fragment>
