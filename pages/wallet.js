@@ -1,10 +1,18 @@
 import React, { useState } from "react";
 import HeroMenu from "../components/HeroMenu/HeroMenu";
 import Marqueee from "../components/Marquee/Marquee";
+import dynamic from 'next/dynamic'
 import Layout from "../components/Layout/Layout";
 import axios from "axios";
 import ReactPlayer from "../components/ReactPlayer/ReactPlayer";
-import Countdown from "../components/Countdwon/Countdown";
+
+
+
+
+
+
+const Countdownn = dynamic(()=> import("../components/Countdwon/Main"), { ssr: false });
+
 var stringify = require("json-stringify-safe");
 
 const Wallet = (props) => {
@@ -244,7 +252,7 @@ const Wallet = (props) => {
                     </div>
                 </div>
                 <div class="row text-center">
-                    <Countdown/>
+                    <Countdownn/>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 pt-4">
