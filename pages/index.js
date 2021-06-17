@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 import ProgressBar from "../components/CircularProgress/ProgressBar";
 import HomeSubHeader from "../components/HomeSubHeader/HomeSubHeader";
 import Layout from "../components/Layout/Layout";
-// import TeamMembers from "../components/Team/TeamMembers";
-import dynamic from 'next/dynamic'
+import Model from "../components/Model/Model";
+import dynamic from "next/dynamic";
 
 var stringify = require("json-stringify-safe");
 

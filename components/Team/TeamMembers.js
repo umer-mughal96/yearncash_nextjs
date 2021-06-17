@@ -1,11 +1,11 @@
 import React from "react";
-import SocialMedia from '../SocialMedia/SocialMedia';
+import SocialMedia from "../SocialMedia/SocialMedia";
 
 const TeamMembers = () => {
   return (
     <div>
       <div className="row text-center">
-      <div className="col-md-6 col-lg-4 col-xl-4">
+        <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
@@ -90,7 +90,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team3.JPEG"
+                  src="assets/images/team3.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
@@ -103,7 +103,8 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                  Over 10 years of IT Experience - 6 years of blockchain experience - dApps specialist and blockchain consultant
+                  Over 10 years of IT Experience - 6 years of blockchain
+                  experience - dApps specialist and blockchain consultant
                 </p>
               </div>
               <SocialMedia />
@@ -115,7 +116,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team4.JPEG"
+                  src="assets/images/team4.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
@@ -128,7 +129,8 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                Over 20 years of IT experience 5 years of Project Management experience/10 years of IT security experience
+                  Over 20 years of IT experience 5 years of Project Management
+                  experience/10 years of IT security experience
                 </p>
               </div>
               <SocialMedia />
@@ -140,28 +142,26 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/testimonial.jpg"
+                  src="assets/images/team6.jpg"
                   alt=""
                   className="testimonial-img"
                 />
               </div>
               <div className="person-name">
-                <h3>Ryan Bettis</h3>
+                <h3>Likhon Sheikh</h3>
               </div>
               <div className="person-role">
-                <span>Chief Operating Officer (COO)</span>
+                <span>Creative Head</span>
               </div>
               <div className="person-desc">
                 <p>
-                  Successful entrepreneur 10 Years Project Manager experience
-                  MBA University of Arkansas
+                Creative Head to the team page.
                 </p>
               </div>
               <SocialMedia />
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

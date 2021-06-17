@@ -44,9 +44,9 @@ const Footer = () => {
                     <h6>Social Media</h6>
                     <ul className="list-unstyled">
                         <li><a target="_blank" href="https://www.facebook.com/yearncash/"><i class="fab fa-facebook-square"></i> /YearnCash</a></li>
-                        <li><a target="_blank" href="https://twitter.com/devscash"><i class="fab fa-twitter"></i> @Yearn Cash Devs</a></li>
+                        <li><a target="_blank" href="https://twitter.com/devscash"><i class="fab fa-twitter"></i> @devscash/@yearnwallet</a></li>
                         <li><a target="_blank" href="https://www.instagram.com/yearn.cash"><i class="fab fa-instagram"></i> @YearnCash</a></li>
-                        <li><a target="_blank" href="https://t.me/Yficgenesis"><i class="fab fa-telegram-plane"></i> Yearn Cash Chat</a></li>
+                        <li><a target="_blank" href="https://t.me/Yficgenesis"><i class="fab fa-telegram-plane"></i> @Yficgenesis/@yearnwallet</a></li>
                         <li><a target="_blank" href="https://mail.google.com/mail"><i class="fas fa-envelope"></i> Yearn Cash</a></li>
                     </ul>
                 </div>

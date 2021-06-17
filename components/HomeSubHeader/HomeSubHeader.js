@@ -1,16 +1,15 @@
 import React from "react";
 import Marqueee from "../Marquee/Marquee";
-import HeroMenu from '../HeroMenu/HeroMenu';
+import HeroMenu from "../HeroMenu/HeroMenu";
 import Circle from "../Svg/svg";
 
-const HomeSubHeader = ({marqueeData}) => {
+const HomeSubHeader = ({ marqueeData }) => {
   return (
     <div className="HomeSubHeader-wrapper">
-      {
-        /* <!---------------------- Hero Section ---------------------> */}
+      {/* <!---------------------- Hero Section ---------------------> */}
       <section className="hero d-flex flex-column justify-content-end align-items-center">
         <div className="currency-bar-wrap">
-          <Marqueee marqueeData={marqueeData}/>
+          <Marqueee marqueeData={marqueeData} />
         </div>
         <div className="container custom-contain">
           <HeroMenu />
@@ -19,11 +18,11 @@ const HomeSubHeader = ({marqueeData}) => {
             <div className="hero-content">
               <h1>What is YFIC?</h1>
               <p>
-                Yearn Cash is an ERC-20 token, these are blockchain-based assets
-                that can be received and sent instantly. ERC-20 tokens reside on
-                the Ethereum blockchain. A major benefit of Yearn Cash being
-                this type of token is that it is used for all smart contracts on
-                the Ethereum blockchain, and it has emerged as the technical
+                Yearn Cash is an ERC-20 token with a maximum supply of 35,000.
+                ERC-20 tokens are blockchain-based assets that can be received
+                and sent instantly. A major benefit of Yearn Cash being this
+                type of token is that it is used for all smart contracts on the
+                Ethereum blockchain, and it has emerged as the technical
                 standard for token implementation. Another key benefit of Yearn
                 Cash is that it uses the latest technological advances such as
                 Defi(decentralized finance) and is completely open to the
@@ -37,13 +36,11 @@ const HomeSubHeader = ({marqueeData}) => {
           </div>
         </div>
 
-        <Circle/>
-        
+        <Circle />
       </section>
-        {/* <!---------------------- End Hero Section ---------------------> */}
-      </div>
+      {/* <!---------------------- End Hero Section ---------------------> */}
+    </div>
   );
 };
-
 
 export default HomeSubHeader;

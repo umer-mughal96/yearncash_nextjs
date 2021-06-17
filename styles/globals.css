@@ -877,7 +877,44 @@ body .rounded-btn{
 	padding-top: 38px;
 }
 /*---------------------- End Call To Action Section ---------------------*/
-
+body .skylight-wrapper {
+  padding: 0px !important;
+}
+.skylight-dialog{
+  width: 50%;
+  height: 200px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -25%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  z-index: 100;
+  padding: 15px;
+  box-shadow: rgb(0 0 0 / 14%) 0px 0px 4px, rgb(0 0 0 / 28%) 0px 4px 8px;
+  transform: scale(1);
+  transition-property: transform;
+  transition-timing-function: ease;
+  transition-duration: 200ms;
+}
+body .skylight-close-button h2{
+  font-size: 28px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100%; */
+  min-height: 170px;
+}
+.text-with-image-section-row{
+  align-items: center;
+}
+.text-with-image-section-text p{
+  line-height: 30px;
+  /* text-align: justify; */
+  font-size: 15.3px;
+}
 /*---------------------- End Home ---------------------*/
 
 
@@ -894,10 +931,17 @@ body .rounded-btn{
 }
 /*---------------------- Partners ---------------------*/
 .partners .comapany-logos{
+  justify-content: center;
+  align-items: center;
   padding: 20px 0px;
+  display:flex;
 }
 .partners .comapany-logos a img{
-  width: 200px;
+  width: 100%;
+  border-radius: 100%;
+}
+.partners .comapany-logos a {
+  max-width: 200px;
 }
 .partners .comapany-logos a{
   padding: 0px 20px;
@@ -1063,14 +1107,19 @@ body .invest-container,
 
 /*---------------------- Wallet ---------------------*/
 .wallet-page .hero{
-	background: url('../public/assets/images/walet-hero.png') no-repeat;
+	/* background: url('../public/assets/images/walet-hero.png') no-repeat; */
+	background: url('../public/assets/images/Badge.png') no-repeat;
   width: 100%;
-  padding-bottom: 90px;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size:400px;
-  height: 720px;
+  background-size: 180px;
+  min-height: 450px;
   position: relative;
+}
+.wallet-desc p{
+  line-height: 30px;
+  text-align: justify;
+  font-size: 15px;
 }
 body .wallet-hero-content{
   position: absolute;
@@ -1205,6 +1254,18 @@ body .wallet-hero-content{
 
 .roadmap-page .hero{
 	background: none;
+}
+.white-check.containers::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -14px;
+  background-color: white;
+  border: 4px solid #0B7F42;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
 }
 /*---------------------- End Header ---------------------*/
 /* The actual timeline (the vertical ruler) */
@@ -1386,6 +1447,27 @@ body .wallet-hero-content{
 		left: 0%;
 	}
   }
+  .timeline-completed.content {
+    padding: 10px 20px;
+    background-color: #0b7f42;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid #0B7F42;
+}
+.timeline-completed.content h2 {
+  font-weight: revert;
+  font-size: 42px;
+  color: white;
+}
+.timeline-completed p {
+  color: white;
+}
+.timeline-second-tree-heading{
+  text-align: center;
+}
+.timeline-second-tree{
+  padding-top: 50px;
+}
 /*---------------------- End Rodemap ---------------------*/
 
 
@@ -1420,6 +1502,13 @@ footer .copyright-wrap span{
   color: #ffffff;
   font-size: 14px;
   font-family: "poppins-regular";
+}
+.Footer-wrapper .col-md-2 .list-unstyled li a{
+    display: flex;
+    align-items: center;
+}
+.Footer-wrapper .col-md-2 .list-unstyled li a i{
+  margin-right:5px;
 }
 /*---------------------- End footer ---------------------*/
 @media screen and (max-width: 767px) {
@@ -1625,9 +1714,9 @@ footer .copyright-wrap span{
 /* Medium devices (tablets, 768px and up) */
 
  @media only screen and (max-width: 768px){
-    .wallet-page .hero {
+    /* .wallet-page .hero {
         height: 400px;
-    }
+    } */
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -1720,7 +1809,9 @@ footer .copyright-wrap span{
   }
   /*---------------------- wallet ---------------------*/
   .wallet-page .hero {
-    background-size: 500px;
+    background-size: 250px;
+    padding-bottom: 20px;
+    height:500px;
   }
   .hero .hero-content {
 		padding-top: 140px;
@@ -1984,7 +2075,7 @@ footer .copyright-wrap span{
     text-align: center;
   }
   .wallet-page .hero {
-    background-size: 500px;
+    background-size: 200px;
   }
   .wallet-right-content {
     text-align: center;
@@ -2153,8 +2244,11 @@ footer .copyright-wrap span{
   /*---------------------- wallet ---------------------*/
   .wallet-page .hero{
 		/* background: linear-gradient(to bottom, #00000070 ,#000000a6), url(../images/hero-2.png); */
-		background-position: center;
+		background-position: bottom;
 		background-repeat: no-repeat;
+    padding-bottom: 0px;
+    min-height: 332px;
+    background-size: 200px;
 	}
 	.wallet-page .hero .hero-content {
 		padding-top: 70px;
@@ -2187,6 +2281,28 @@ footer .copyright-wrap span{
 	.yearncash-app .mobile-mockup {
 		padding-bottom: 20px;
 	}
+  .comapany-logos a{
+    margin-bottom: 20px;
+  }
+  .partners .comapany-logos{
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .partners .comapany-logos a img{
+    width: 100%;
+    margin-bottom:30px;
+    border-radius: 100%;
+  }
+  .partners .comapany-logos a {
+    width: 50%;
+    padding:0px;
+    margin:30px 0px;
+  }
   /*----------------------End wallet ---------------------*/
 
 
@@ -2288,4 +2404,9 @@ footer .copyright-wrap span{
 .maintenance-text p{
   margin-bottom: 0px;
   font-family: "poppins-regular";
+}
+
+
+.card {
+  background-color: red !important;
 }
