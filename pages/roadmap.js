@@ -1,18 +1,17 @@
 import React, { useState } from "react";
 import Layout from "../components/Layout/Layout";
 import SubHeader from "../components/SubHeader/SubHeader";
-import axios from 'axios'
+import axios from "axios";
 var stringify = require("json-stringify-safe");
 
 const roadmap = (props) => {
-
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
 
   return (
     <div>
       <Layout title="Yearn Cash (YFIC) Road Map" />
       <div className="roadmap-page">
-        <SubHeader marqueeData={marqueeData}/>
+        <SubHeader marqueeData={marqueeData} />
         {/* <!-- ===================== Road Map Section  ======================== --> */}
         <div className="container-fluid">
           <div className="row">
@@ -29,7 +28,7 @@ const roadmap = (props) => {
               </div>
               <div className="timeline">
                 <div className="containers right">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>01</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/rocket.svg" alt="" />{" "}
@@ -38,7 +37,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers left">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>02</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/habits.svg" alt="" />{" "}
@@ -49,7 +48,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers right">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>03</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/mobile.svg" alt="" />{" "}
@@ -58,7 +57,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers left">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>04</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/listings.svg" alt="" />{" "}
@@ -67,7 +66,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers right">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>05</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/real-world.svg" alt="" />{" "}
@@ -76,7 +75,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers left">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>06</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/partnership.svg" alt="" />{" "}
@@ -88,7 +87,7 @@ const roadmap = (props) => {
                   </div>
                 </div>
                 <div className="containers right">
-                  <div className="content">
+                  <div className="content timeline-completed">
                     <h2>07</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/marketing.svg" alt="" />{" "}
@@ -146,6 +145,26 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className="containers right white-check">
+                  <div className="content">
+                    <h2>13</h2>
+                    <div className="roadmap-image">
+                      <img src="assets/icons/website.svg" alt="" />{" "}
+                      <p>
+                        Create a partnership with Ledger to stake cold wallet
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="containers left white-check">
+                  <div className="content">
+                    <h2>14</h2>
+                    <div className="roadmap-image">
+                      <img src="assets/icons/wallet.svg" alt="" />{" "}
+                      <p>Find and conduct stake on partner platform</p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -158,9 +177,7 @@ const roadmap = (props) => {
 
 export default roadmap;
 
-
 export async function getServerSideProps() {
- 
   let config = {
     headers: {
       "X-CMC_PRO_API_KEY": "fcb17a13-9025-4066-b3a2-f57f08ccdccf",
@@ -170,12 +187,12 @@ export async function getServerSideProps() {
     "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
     config
   );
-  let coinsData = stringify(result)
+  let coinsData = stringify(result);
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
   return {
     props: {
-      coinsData
+      coinsData,
     },
   };
 }

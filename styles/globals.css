@@ -912,8 +912,8 @@ body .skylight-close-button h2{
 }
 .text-with-image-section-text p{
   line-height: 30px;
-  text-align: justify;
-  font-size: 18px;
+  /* text-align: justify; */
+  font-size: 15.3px;
 }
 /*---------------------- End Home ---------------------*/
 
@@ -1110,12 +1110,16 @@ body .invest-container,
 	/* background: url('../public/assets/images/walet-hero.png') no-repeat; */
 	background: url('../public/assets/images/Badge.png') no-repeat;
   width: 100%;
-  padding-bottom: 90px;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
-  background-size:250px;
-  height: 720px;
+  background-size: 180px;
+  min-height: 450px;
   position: relative;
+}
+.wallet-desc p{
+  line-height: 30px;
+  text-align: justify;
+  font-size: 15px;
 }
 body .wallet-hero-content{
   position: absolute;
@@ -1443,6 +1447,27 @@ body .wallet-hero-content{
 		left: 0%;
 	}
   }
+  .timeline-completed.content {
+    padding: 10px 20px;
+    background-color: #0b7f42;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid #0B7F42;
+}
+.timeline-completed.content h2 {
+  font-weight: revert;
+  font-size: 42px;
+  color: white;
+}
+.timeline-completed p {
+  color: white;
+}
+.timeline-second-tree-heading{
+  text-align: center;
+}
+.timeline-second-tree{
+  padding-top: 50px;
+}
 /*---------------------- End Rodemap ---------------------*/
 
 
@@ -1689,9 +1714,9 @@ footer .copyright-wrap span{
 /* Medium devices (tablets, 768px and up) */
 
  @media only screen and (max-width: 768px){
-    .wallet-page .hero {
+    /* .wallet-page .hero {
         height: 400px;
-    }
+    } */
   }
 
   @media (min-width: 768px) and (max-width: 991.98px) {
@@ -2219,9 +2244,11 @@ footer .copyright-wrap span{
   /*---------------------- wallet ---------------------*/
   .wallet-page .hero{
 		/* background: linear-gradient(to bottom, #00000070 ,#000000a6), url(../images/hero-2.png); */
-		background-position: center;
+		background-position: bottom;
 		background-repeat: no-repeat;
     padding-bottom: 0px;
+    min-height: 332px;
+    background-size: 200px;
 	}
 	.wallet-page .hero .hero-content {
 		padding-top: 70px;

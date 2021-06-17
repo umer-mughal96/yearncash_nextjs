@@ -21,7 +21,7 @@ const Wallet = (props) => {
     <div>
       <Layout title="Introduction to yEARN Wallet Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto! " />
       <div className="wallet-page">
-        <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center">
+        <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center pb-0">
           <div className="container custom-contain wallet-hero-content">
             <div className="row">
               <Marqueee marqueeData={marqueeData} />
@@ -43,9 +43,10 @@ const Wallet = (props) => {
         </section>
         {/* <!---------------------- End Hero Section ---------------------> */}
         {/* <!---------------------- About Wallet Section ---------------------> */}
-        <section className="about-wallet">
+        <section className="about-wallet pt-0">
           <div className="container custom-contain">
-            <div className="row text-center">
+
+            {/* <div className="row text-center">
               <div className="col-md-12">
                 <h2>yEARN Wallet</h2>
                 <div className="main-desc">
@@ -58,7 +59,30 @@ const Wallet = (props) => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+            <div className="container custom-contain">
+                <div className="row wallet-content-row">
+                  <div className="col-md-6 col-lg-6 col-xl-6 order-2 order-md-1">
+                    <div className="about-illustration-wrap ">
+                      {/* <img src="assets/images/RealWorldSolutions.png" alt="" /> */}
+                      <ReactPlayer />
+                    </div>
+                  </div>
+                  <div className="col-md-6 col-lg-6 col-xl-6 order-md-2 order-1">
+                    <div className="wallet-desc wallet-left-content">
+                      <h2>yEARN Wallet</h2>
+                      <p>
+                      First and foremost, our aim is to be your one stop mobile
+                      solution for safely storing and EARNing Cryptocurrency. In
+                      our mobile application, users can easily EARN, Stake, Swap,
+                      Transfer, and even play Games to win Crypto! Users also
+                      enjoy $0 tansfer fees between yEARN Wallet accounts.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             <div className="about-wallet">
               <div className="container custom-contain">
@@ -81,8 +105,8 @@ const Wallet = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="about-illustration-wrap">
-                      {/* <img src="assets/images/security.svg" alt="" /> */}
-                      <ReactPlayer />
+                      <img src="assets/images/Security-img.png" alt="" />
+                      {/* <ReactPlayer /> */}
                     </div>
                   </div>
                 </div>
@@ -213,7 +237,7 @@ const Wallet = (props) => {
           </div>
         </section>
         {/* <!---------------------- Partners Section ---------------------> */}
-      <section className="partners pt-0">
+      <section className="partners">
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
@@ -228,7 +252,7 @@ const Wallet = (props) => {
                   our KOL group is without obligation, but highly recommended.
                 </p> */}
                 <a href="https://dancannabis.com/">
-                <img src="assets/images/chainlinkLabsLogo.png" alt="" />
+                <img src="assets/images/team5.jpg" alt="" />
                 </a>
                 <a href="#">
                   <img src="assets/images/chainlinkLabsLogo.png" alt="" />
@@ -272,6 +296,145 @@ const Wallet = (props) => {
             </div>
         </section>
         {/* <!---------------------- End Timer Section ---------------------> */}
+        {/* Second tree */}
+        <div className="timeline-second-tree">
+                <h2 className="timeline-second-tree-heading">YEARN WALLET ROAD MAP</h2>
+                <div className="timeline">
+                  <div className="containers right">
+                    <div className="content timeline-completed">
+                      <h2>01</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/rocket.svg" alt="" />{" "}
+                        <p>Begin working on creation of Wallet and initial layout.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left">
+                    <div className="content timeline-completed">
+                      <h2>02</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/habits.svg" alt="" />{" "}
+                        <p>
+                        Create marketing campaign and YFIC promotional give away for yEARN wallet roll out.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right">
+                    <div className="content timeline-completed">
+                      <h2>03</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/mobile.svg" alt="" />{" "}
+                        <p>Meeting with Chainlink Labs to discuss API integration and smart contract implementation in the marijuana industry.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left">
+                    <div className="content timeline-completed">
+                      <h2>04</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/listings.svg" alt="" />{" "}
+                        <p>Partner with Roger’s Financial (Marijuana Grower and Cultivator)</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right">
+                    <div className="content timeline-completed">
+                      <h2>05</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/real-world.svg" alt="" />{" "}
+                        <p>Acquire API key from METRC (seed to sale software) and begin working on completing smart contract integration.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left">
+                    <div className="content timeline-completed">
+                      <h2>06</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/partnership.svg" alt="" />{" "}
+                        <p>Meeting with ABACA banking intermediate to discuss a possible partnership and future use of yEARN Wallet.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right">
+                    <div className="content">
+                      <h2>07</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/marketing.svg" alt="" />{" "}
+                        <p>July 15th ZED Run Racehorse Giveaway.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left white-check">
+                    <div className="content">
+                      <h2>08</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/bilaxy.svg" alt="" />{" "}
+                        <p>Deliver Beta version of yEARN Wallet for test pilot.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right white-check">
+                    <div className="content">
+                      <h2>09</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/dollar.svg" alt="" />
+                        <p>Finalize API integration for Chainlink Labs’ smart contracts.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left white-check">
+                    <div className="content">
+                      <h2>10</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/wallet.svg" alt="" />{" "}
+                        <p>Roll out final version of yEARN Wallet with 2500 YFIC giveaway.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right white-check">
+                    <div className="content">
+                      <h2>11</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/website.svg" alt="" />{" "}
+                        <p>
+                          Apply for gambling license for crypto casino.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left white-check">
+                    <div className="content">
+                      <h2>12</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/wallet.svg" alt="" />{" "}
+                        <p>yEARN Wallet live on Android and IOS App Store.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers right white-check">
+                    <div className="content">
+                      <h2>13</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/website.svg" alt="" />{" "}
+                        <p>
+                        Implement yEARN Wallet for use of crypto in retail format.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="containers left white-check">
+                    <div className="content">
+                      <h2>14</h2>
+                      <div className="roadmap-image">
+                        <img src="assets/icons/wallet.svg" alt="" />{" "}
+                        <p>RULE THE FUCKING WORLD JK JK HOPEFULLY SOMEONE READS THIS SHIT</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* Second tree */}
         {/* <!---------------------- End About Wallet Section ---------------------> */}
       </div>
     </div>
