@@ -174,7 +174,6 @@ class Countdownn extends React.Component {
           {/* {this.state.isModalOpen ? <SettingsModal dateValue={this.state.dateValue} timeValue={this.state.timeValue} ampmValue={this.state.ampmValue} handleChange={this.handleChange} handleSubmit={this.handleSubmit} settingsFormError={this.state.settingsFormError} errorMessage={this.state.errorMessage} showModal={this.showModal} /> : null} */}
           <Countdown countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} /> 
         </main>
-        <footer>Created by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a> &copy; {new Date().getFullYear()}</footer>
       </React.Fragment>
     );
   }
