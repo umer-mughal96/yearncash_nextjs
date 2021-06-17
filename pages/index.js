@@ -14,24 +14,24 @@ var stringify = require("json-stringify-safe");
 // );
 
 export default function Home(props) {
-  const [yfic, setYfic] = useState(JSON.parse(props.data));
-  const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
+  // const [yfic, setYfic] = useState(JSON.parse(props.data));
+  // const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
 
   return (
     <div>
-    <div className="maintenance-wrapper">
+      <div className="maintenance-wrapper">
         <div className="maintenance-contaioner">
-            <div className="maintenance-img">
-                <img src="assets/images/maintenance.svg" alt="" srcset="" />
-            </div>
-            <div className="maintenance-text">
-                <h2>Hang on! We are under maintenance</h2>
-                {/* <p>it will not take a long time till we get the error fixed.</p>
+          <div className="maintenance-img">
+            <img src="assets/images/maintenance.svg" alt="" srcset="" />
+          </div>
+          <div className="maintenance-text">
+            <h2>Hang on! We are under maintenance</h2>
+            {/* <p>it will not take a long time till we get the error fixed.</p>
                 <p>we will be live again shortly.</p> */}
-            </div>
-        </div> 
+          </div>
+        </div>
+      </div>
     </div>
-</div>
     // <div>
     //   <Layout title="Home" />
     //   <HomeSubHeader marqueeData={marqueeData} />
@@ -393,7 +393,7 @@ export default function Home(props) {
     //       <div className="OwlCarousel-wrapper">
     //         {/* <MySlider /> */}
     //       </div>
-  
+
     //     </div>
     //   </section>
     //   {/* <!---------------------- End Partners Section ---------------------> */}
@@ -441,28 +441,28 @@ export default function Home(props) {
   );
 }
 
-export async function getServerSideProps() {
-  // Call an external API endpoint to get posts
-  const res = await axios.post(
-    "https://widget.nomics.com/api/assets/YFIC3/USD/"
-  );
-  let data = stringify(res);
-  let config = {
-    headers: {
-      "X-CMC_PRO_API_KEY": "fcb17a13-9025-4066-b3a2-f57f08ccdccf",
-    },
-  };
-  let result = await axios.get(
-    "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
-    config
-  );
-  let coinsData = stringify(result);
-  // By returning { props: { posts } }, the Blog component
-  // will receive `posts` as a prop at build time
-  return {
-    props: {
-      data,
-      coinsData,
-    },
-  };
-}
+// export async function getServerSideProps() {
+//   // Call an external API endpoint to get posts
+//   const res = await axios.post(
+//     "https://widget.nomics.com/api/assets/YFIC3/USD/"
+//   );
+//   let data = stringify(res);
+//   let config = {
+//     headers: {
+//       "X-CMC_PRO_API_KEY": "fcb17a13-9025-4066-b3a2-f57f08ccdccf",
+//     },
+//   };
+//   let result = await axios.get(
+//     "https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest",
+//     config
+//   );
+//   let coinsData = stringify(result);
+//   // By returning { props: { posts } }, the Blog component
+//   // will receive `posts` as a prop at build time
+//   return {
+//     props: {
+//       data,
+//       coinsData,
+//     },
+//   };
+// }
