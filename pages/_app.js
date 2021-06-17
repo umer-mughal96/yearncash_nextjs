@@ -13,7 +13,6 @@ import { useRouter } from 'next/router'
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
   const router = useRouter()
-  console.log("🚀 ~ file: _app.js ~ line 16 ~ MyApp ~ router", router)
   return (
     <Fragment>
       {/* <DarkModeToggle /> */}

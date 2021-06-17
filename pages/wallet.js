@@ -6,7 +6,7 @@ import Layout from "../components/Layout/Layout";
 import axios from "axios";
 import ReactPlayer from "../components/ReactPlayer/ReactPlayer";
 
-
+// import Countdownn from '../components/Countdwon/Main'
 
 
 
@@ -276,7 +276,7 @@ const Wallet = (props) => {
                     </div>
                 </div>
                 <div class="row text-center">
-                    {/* <Countdownn/> */}
+                    <Countdownn/>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 pt-4">

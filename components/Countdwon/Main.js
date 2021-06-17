@@ -8,7 +8,7 @@ class Countdownn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dateValue: "12-12-2021",
+      dateValue: "07-16-2021",
       timeValue: '12:12',
       ampmValue: 'am',
       countdown: {
@@ -46,30 +46,33 @@ class Countdownn extends React.Component {
     });
   }
 
-  handleSubmit(event, dateValue, timeValue, ampmValue) {
-      console.log(event,dateValue,timeValue,ampmValue)
-    event.preventDefault();
+  handleSubmit(dateValue, timeValue, ampmValue) {
+    console.log(dateValue,timeValue,ampmValue)
     const unixEndDate = Number(moment(`${dateValue} ${timeValue} ${ampmValue}`, 'MM-DD-YYYY hh:mm A').format('X'));
 
     if (!moment(dateValue, 'MM-DD-YYYY', true).isValid()) {
+      console.log('1')
       this.setState({
         settingsFormError: true,
         errorMessage: 'Date input must be a valid date set in MM-DD-YYYY format.'
       });
     }
     else if (!moment(timeValue, 'hh:mm', true).isValid()) {
+      console.log('2')
       this.setState({
         settingsFormError: true,
         errorMessage: 'Time input must be valid according to the 12-hour clock set in hh:mm format.'
       });
     }
     else if ((unixEndDate - moment().format('X')) < 1) {
+      console.log('3')
       this.setState({
         settingsFormError: true,
         errorMessage: 'The countdown must be set to a future date.'
       });
     }
     else {
+      console.log('start Countdown')
       this.startCountdown(this.renderCountdownDate({
         dateValue,
         timeValue,
@@ -159,6 +162,7 @@ class Countdownn extends React.Component {
         this.showModal(false);
       }
     });
+    this.handleSubmit(this.state.dateValue , this.state.timeValue , this.state.ampmValue)
   }
 
   render() {
@@ -168,7 +172,7 @@ class Countdownn extends React.Component {
         
         <main>
           {/* {this.state.isModalOpen ? <SettingsModal dateValue={this.state.dateValue} timeValue={this.state.timeValue} ampmValue={this.state.ampmValue} handleChange={this.handleChange} handleSubmit={this.handleSubmit} settingsFormError={this.state.settingsFormError} errorMessage={this.state.errorMessage} showModal={this.showModal} /> : null} */}
-          {this.state.isCountdownSet ? <Countdown countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} /> : <p className="message info-message"><span className="fa fa-info-circle fa-lg fa-fw"></span> {this.state.infoMessage}</p>}
+          <Countdown countdown={this.state.countdown} unixEndDate={this.renderCountdownDate().unixEndDate} /> 
         </main>
         <footer>Created by <a href="https://autumnbullard-portfolio.herokuapp.com" target="_blank">Autumn Bullard</a> &copy; {new Date().getFullYear()}</footer>
       </React.Fragment>
