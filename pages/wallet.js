@@ -11,7 +11,7 @@ import ReactPlayer from "../components/ReactPlayer/ReactPlayer";
 
 
 
-const Countdownn = dynamic(()=> import("../components/Countdwon/Main"), { ssr: false });
+// const Countdownn = dynamic(()=> import("../components/Countdwon/Main"), { ssr: false });
 
 var stringify = require("json-stringify-safe");
 
@@ -276,7 +276,7 @@ const Wallet = (props) => {
                     </div>
                 </div>
                 <div class="row text-center">
-                    <Countdownn/>
+                    {/* <Countdownn/> */}
                 </div>
                 <div class="row text-center">
                     <div class="col-md-12 pt-4">
