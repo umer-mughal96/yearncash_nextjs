@@ -155,7 +155,7 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                Creative Head to the team page.
+                  Creative Head to the team page.
                 </p>
               </div>
               <SocialMedia />
@@ -176,11 +176,11 @@ const TeamMembers = () => {
                 <h3>Wesley Dost</h3>
               </div>
               <div className="person-role">
-                <span>Creative Head</span>
+                <span> Social Media Head</span>
               </div>
               <div className="person-desc">
                 <p>
-                  Social Media Head
+                  Head of social media accounts for Yearn Cash.
                 </p>
               </div>
               <SocialMedia />
