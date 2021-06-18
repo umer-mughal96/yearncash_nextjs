@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Toggle from './Toggle';
 import useDarkMode from 'use-dark-mode';
 
-const DarkModeToggle = () => {
+const DarkModeToggle = ({handleDarkMode}) => {
   const darkMode = useDarkMode(false);
+
+
+  useEffect(() => {
+
+    handleDarkMode(darkMode.value)
+
+  },[darkMode.value])
 
   
 
-if (typeof window === 'undefined') return null;
+  if (typeof window === 'undefined') return null;
 
   return (
     <div className="dark-mode-toggle">
@@ -15,7 +22,7 @@ if (typeof window === 'undefined') return null;
         ☀
       </button>
       <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
-      <button type="button" className="dark-mode-btn" onClick={darkMode.enable}>    
+      <button type="button" className="dark-mode-btn" onClick={darkMode.enable}>
         ☾
       </button>
     </div>

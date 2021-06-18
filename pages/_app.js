@@ -13,14 +13,21 @@ import { useRouter } from 'next/router'
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
   const router = useRouter()
+  const [darkMode , setDarkMode] = useState()
+
+
+
+  const handleParentDarkMode = (value) => {
+    setDarkMode(value)
+  }
   return (
     <Fragment>
       {/* <DarkModeToggle /> */}
       <Layout>
-        <Header />
+        <Header handleParentDarkMode={handleParentDarkMode} />
         <Component {...pageProps} />
-        {router.pathname == '/' && null }
-        
+        {router.pathname == '/' ? null : <Footer darkMode={darkMode} />}
+
       </Layout>
     </Fragment>
   );

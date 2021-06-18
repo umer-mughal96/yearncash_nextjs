@@ -47,7 +47,6 @@ class Countdownn extends React.Component {
   }
 
   handleSubmit(dateValue, timeValue, ampmValue) {
-    console.log(dateValue,timeValue,ampmValue)
     const unixEndDate = Number(moment(`${dateValue} ${timeValue} ${ampmValue}`, 'MM-DD-YYYY hh:mm A').format('X'));
 
     if (!moment(dateValue, 'MM-DD-YYYY', true).isValid()) {
@@ -166,7 +165,6 @@ class Countdownn extends React.Component {
   }
 
   render() {
-      console.log(this.state)
     return (
       <React.Fragment>
         

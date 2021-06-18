@@ -3,8 +3,14 @@ import Link from "next/link";
 import SocialMedia from '../SocialMedia/SocialMedia';
 import DarkModeToggle from "../DarkMode/DarkmodeToggle";
 
-const Header = () => {
+const Header = ({handleParentDarkMode}) => {
   const [toggler, setShowToggler] = useState(false);
+
+
+  const handleDarkMode = (value) => {
+    handleParentDarkMode(value)
+  }
+
 
   return (
     <div className="header-wrapper">
@@ -66,7 +72,7 @@ const Header = () => {
             </ul>
            
               <SocialMedia />
-              <DarkModeToggle />
+              <DarkModeToggle handleDarkMode={handleDarkMode}/>
           </div>
         </nav>
       </header>
