@@ -10,7 +10,7 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team5.jpg"
+                  src="assets/images/team8.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
