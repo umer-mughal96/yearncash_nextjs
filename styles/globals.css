@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "poppins-regular";
-  src: url("../public/assets/fonts/Poppins-Regular.ttf");
+  src: url("../public/assets/fonts/Poppins-Regular.ttf")
 }
 
 @font-face {
   font-family: "Poppins-SemiBold";
-  src: url("../public/assets/fonts/Poppins-SemiBold.ttf");
+  src: url("../public/assets/fonts/Poppins-SemiBold.ttf")
 }
 
 @font-face {
