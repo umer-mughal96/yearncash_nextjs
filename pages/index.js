@@ -320,7 +320,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
       </section>
       {/* <!---------------------- End Allocations Section ---------------------> */}
       {/* <!---------------------- Why Us Section ---------------------> */}
-      <section className="why-us">
+      {/* <section className="why-us">
         <div className="container">
           <div className="row text-center">
             <div className="col-md-12">
@@ -358,14 +358,14 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <!---------------------- End Why Us Section ---------------------> */}
       {/* <!---------------------- Partners Section ---------------------> */}
       <section className="partners pt-0">
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
-              <h2>YFIC Partners</h2>
+              <h2 style={{marginTop : '20px'}}>YFIC Partners</h2>
               <div className="mt-5 comapany-logos">
                 {/* <p>
                   Projects that launch through YFIC will have the opportunity to
