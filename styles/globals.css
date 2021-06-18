@@ -2409,3 +2409,8 @@ footer .copyright-wrap span{
   margin-bottom: 0px;
   font-family: "poppins-regular";
 }
+
+
+.card {
+  background-color: black !important;
+}

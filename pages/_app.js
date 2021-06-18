@@ -8,18 +8,19 @@ import "../styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import { Fragment, useState } from "react";
 // import DarkModeToggle from "../components/DarkMode/DarkmodeToggle";
-
-const DynamicComponent = dynamic(() => import("../styles/globals.css"));
+import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }) {
   const [toggle, setToggle] = useState(false);
+  const router = useRouter()
   return (
     <Fragment>
       {/* <DarkModeToggle /> */}
       <Layout>
         <Header />
         <Component {...pageProps} />
-        <Footer />
+        {router.pathname == '/' && null }
+        
       </Layout>
     </Fragment>
   );
