@@ -26,8 +26,8 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Header handleParentDarkMode={handleParentDarkMode} />
         <Component {...pageProps} />
-        {router.pathname == '/' ? null : <Footer darkMode={darkMode} />}
-
+        {/* {router.pathname == '/' ? null : <Footer darkMode={darkMode} />} */}
+        <Footer darkMode={darkMode} />
       </Layout>
     </Fragment>
   );

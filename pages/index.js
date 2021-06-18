@@ -299,14 +299,15 @@ export default function Home(props) {
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="allocation-content">
-                <h2>Allocations</h2>
-                <div>
-                  <p>
+              <h2>Allocations</h2>
+                <div className="Allocations-content">
+                  {/* <p>
                     For community-based efforts, Multisig wallets for DAOs and
                     DeFi projects are often implemented as 6 of 9 wallets, where
                     6 of 9 community wallet signers must agree to sign a
                     transaction before a Smart Contract can be implemented.
-                  </p>
+                  </p> */}
+                  <img src="assets/images/Allocations2.jpg" alt="" />
                 </div>
               </div>
             </div>
