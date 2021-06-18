@@ -4,7 +4,7 @@ import SocialMedia from "../SocialMedia/SocialMedia";
 const TeamMembers = () => {
   return (
     <div>
-      <div className="row text-center">
+      <div className="row text-center teammember-wrapper">
         <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
@@ -156,6 +156,31 @@ const TeamMembers = () => {
               <div className="person-desc">
                 <p>
                 Creative Head to the team page.
+                </p>
+              </div>
+              <SocialMedia />
+            </div>
+          </div>
+        </div>
+        <div className="col-md-6 col-lg-4 col-xl-4">
+          <div className="testimonial-card-wrap">
+            <div className="testimonial-card">
+              <div className="testimonial-img-wrap">
+                <img
+                  src="assets/images/team7.jpeg"
+                  alt=""
+                  className="testimonial-img"
+                />
+              </div>
+              <div className="person-name">
+                <h3>Wesley Dost</h3>
+              </div>
+              <div className="person-role">
+                <span>Creative Head</span>
+              </div>
+              <div className="person-desc">
+                <p>
+                  Social Media Head
                 </p>
               </div>
               <SocialMedia />

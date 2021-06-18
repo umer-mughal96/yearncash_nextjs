@@ -372,7 +372,7 @@ const Wallet = (props) => {
                       <h2>06</h2>
                       <div className="roadmap-image">
                         <img src="assets/icons/partnership.svg" alt="" />{" "}
-                        <p>Meeting with ABACA banking intermediate to discuss a possible partnership and future use of yEARN Wallet.</p>
+                        <p>Meeting with a banking intermediate to discuss a possible integration into invoicing software of yEARN Wallet.</p>
                       </div>
                     </div>
                   </div>
@@ -390,7 +390,7 @@ const Wallet = (props) => {
                       <h2>08</h2>
                       <div className="roadmap-image">
                         <img src="assets/icons/bilaxy.svg" alt="" />{" "}
-                        <p>Deliver Beta version of yEARN Wallet for test pilot.</p>
+                        <p>Deliver Beta version of yEARN Wallet to our Telegram Followers.</p>
                       </div>
                     </div>
                   </div>
@@ -408,7 +408,7 @@ const Wallet = (props) => {
                       <h2>10</h2>
                       <div className="roadmap-image">
                         <img src="assets/icons/wallet.svg" alt="" />{" "}
-                        <p>Roll out final version of yEARN Wallet with 2500 YFIC giveaway.</p>
+                        <p>Roll out final version of yEARN Wallet with 4000 YFIC giveaway.</p>
                       </div>
                     </div>
                   </div>
@@ -428,7 +428,7 @@ const Wallet = (props) => {
                       <h2>12</h2>
                       <div className="roadmap-image">
                         <img src="assets/icons/wallet.svg" alt="" />{" "}
-                        <p>yEARN Wallet live on Android and IOS App Store.</p>
+                        <p>yEARN Wallet goes live on Android and IOS App Store.</p>
                       </div>
                     </div>
                   </div>

@@ -929,6 +929,10 @@ body .skylight-close-button h2{
   width: 200px;
   height: 200px;
 }
+.teammember-wrapper{
+  align-items: center;
+  justify-content: center;
+}
 /*---------------------- Partners ---------------------*/
 .partners .comapany-logos{
   justify-content: center;
