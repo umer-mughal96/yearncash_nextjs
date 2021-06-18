@@ -275,9 +275,9 @@ const Wallet = (props) => {
                         <p>Follow us on Telegram Before</p>
                     </div>
                 </div>
-                <div class="row text-center">
+                
                     <Countdownn/>
-                </div>
+                
                 <div class="row text-center">
                     <div class="col-md-12 pt-4">
                         <i class="far fa-chevron-double-down"></i>

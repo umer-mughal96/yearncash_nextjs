@@ -4,23 +4,31 @@ import moment from 'moment';
 const Countdown = ({ countdown, unixEndDate }) => {
 
   return (
-    <div className="countdown">
-      <div className="card">
-        <div className="countdown-value">{countdown.days}</div>
-        <div className="countdown-unit">Days</div>
-      </div>
-      <div className="card">
-        <div className="countdown-value">{countdown.hours}</div>
-        <div className="countdown-unit">Hours</div>
-      </div>
-      <div className="card">
-        <div className="countdown-value">{countdown.mins}</div>
-        <div className="countdown-unit">Mins</div>
-      </div>
-      <div className="card">
-        <div className="countdown-value">{countdown.secs}</div>
-        <div className="countdown-unit">Secs</div>
-      </div>
+    <div class="row text-center">
+      <div class="col">
+                        <div class="days">
+                            <h5>{countdown.days}</h5>
+                            <span>Days</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="hours">
+                            <h5>{countdown.hours}</h5>
+                            <span>Hours</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="minutes">
+                            <h5>{countdown.mins}</h5>
+                            <span>MINUTES</span>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="seconds">
+                            <h5>{countdown.secs}</h5>
+                            <span>Seconds</span>
+                        </div>
+                    </div>
       <p>Counting down to {moment.unix(unixEndDate).format('dddd, MMMM Do, YYYY | h:mm A')}</p>
     </div>
   );
