@@ -303,7 +303,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="allocation-content">
-              <h2>Allocations</h2>
+              <h2>Project Highlights</h2>
                 <div className="Allocations-content">
                   {/* <p>
                     For community-based efforts, Multisig wallets for DAOs and
