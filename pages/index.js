@@ -186,15 +186,15 @@ export default function Home(props) {
       {/* <!---------------------- End YearCash Char Section ---------------------> */}
 
       {/* <!---------------------- About Section ---------------------> */}
-      <section className="about-us">
+      <section className="about-us pt-0">
         <div className="container custom-contain">
-          <div className="row">
+          <div className="row second-row">
             <div className="col-md-6">
               <div className="about-illustration-wrap">
                 <img src="assets/images/image1.png" alt="" />
               </div>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 second-para-wrapper">
             Yearn Cash seeks to be the cryptocurrency by the people and for the people. Our intention is to be adopted for use as a peer-to peer (P2P) payment system, which gives the power back to the people as well as solve real world problems that are faced daily. Yearn Cash is an ERC-20 Token, which are blockchain-based assets that have value and can be received and sent. ERC-20 tokens reside on the Ethereum blockchain. Another key benefit of Yearn Cash is that it uses the latest technological advances such as Defi and is completely open to integration of future industry developments, such as sharding and quantic tech amongst other future developments.
               {/* <h2>What is YFIC?</h2>
               <p>

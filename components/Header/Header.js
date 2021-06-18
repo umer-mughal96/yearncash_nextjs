@@ -38,7 +38,7 @@ const Header = ({handleParentDarkMode}) => {
           </button>
 
           <div className={!toggler ? 'collapse navbar-collapse' : 'collapse navbar-collapse show'} id="navbarSupportedContent">
-            <ul className="navbar-nav  ml-auto">
+            <ul className="navbar-nav  ml-auto mb-4 mobile-menu">
               <li className="nav-item active">
                 <a className="nav-link" href="/">
                   Home
@@ -55,14 +55,14 @@ const Header = ({handleParentDarkMode}) => {
                 </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/whitepaper">
+                <a className="nav-link" href="/whitepaper">
                   Whitepaper
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="/team">
+                <a className="nav-link" href="/team">
                   Team
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/roadmap">
