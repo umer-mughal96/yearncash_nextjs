@@ -18,9 +18,7 @@ const HomeSubHeader = ({ marqueeData }) => {
             <div className="hero-content">
               <h1>What is YFIC?</h1>
               <p>
-                Yearn Cash is an ERC-20 token with a maximum supply of 35,000.
-                ERC-20 tokens are blockchain-based assets that can be received
-                and sent instantly. A major benefit of Yearn Cash being this
+                Yearn Cash is an ERC-20 token with a maximum supply of 35,000.  ERC-20 tokens are blockchain-based assets that can be received and sent instantly. A major benefit of Yearn Cash being this
                 type of token is that it is used for all smart contracts on the
                 Ethereum blockchain, and it has emerged as the technical
                 standard for token implementation. Another key benefit of Yearn

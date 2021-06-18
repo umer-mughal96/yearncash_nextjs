@@ -11,10 +11,10 @@ class Model extends React.Component {
       <>
           <button className="btn custom-btn rounded-btn" onClick={() => this.simpleDialog.show()}>Download</button>
         {process.browser && (
-          <SkyLight className="SkyLight-text"
+          <SkyLight
             hideOnOverlayClicked
             ref={(ref) => (this.simpleDialog = ref)}
-            title="coming soon"
+            title="Coming Soon !"
           >
           </SkyLight>
         )}

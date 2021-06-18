@@ -16,6 +16,7 @@ var stringify = require("json-stringify-safe");
 export default function Home(props) {
   const [yfic, setYfic] = useState(JSON.parse(props.data));
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
+  const [modal,setModal] = useState(false)
 
   return (
     // <div>
@@ -43,7 +44,7 @@ export default function Home(props) {
               <div className="avatar-text-wrapper">
                 <div className="stat-avatar">
                   {/* <img src={yfic && yfic?.data?.meta.logo_url} alt="" /> */}
-                  <img src="assets/images/YFIC.svg" alt="" />
+                  <img src="assets/images/team5.jpg" alt="" />
                 </div>
                 <h2>
                   YearnCash <span className="currency">(YFIC)</span>
@@ -190,10 +191,11 @@ export default function Home(props) {
           <div className="row">
             <div className="col-md-6">
               <div className="about-illustration-wrap">
-                <img src="assets/images/YFIC.svg" alt="" />
+                <img src="assets/images/image1.png" alt="" />
               </div>
             </div>
             <div className="col-md-6">
+            Yearn Cash seeks to be the cryptocurrency by the people and for the people. Our intention is to be adopted for use as a peer-to peer (P2P) payment system, which gives the power back to the people as well as solve real world problems that are faced daily. Yearn Cash is an ERC-20 Token, which are blockchain-based assets that have value and can be received and sent. ERC-20 tokens reside on the Ethereum blockchain. Another key benefit of Yearn Cash is that it uses the latest technological advances such as Defi and is completely open to integration of future industry developments, such as sharding and quantic tech amongst other future developments.
               {/* <h2>What is YFIC?</h2>
               <p>
                 YFIC is an automated full-service Initial DEX Offering Launchpad
@@ -224,6 +226,8 @@ export default function Home(props) {
           </div>
           <div className="row second-row">
             <div className="col-md-6 second-para-wrapper order-md-1 order-2 ">
+            Yearn Cash is a protocol on the Ethereum blockchain. The purpose of which is to offer the user a convenient and simple mobile tool and decentralized product beyond the simple management of decentralized applications.The ultimate goal of the Yearn Cash protocol is to provide an integrated DeFi platform that users and the community do not need to look for to use. In 
+addition, the Yearn Cash product also provides risk mitigation measures. If wepay attention to all DeFi products, we see maximum market and price manipulation.
               {/* <div className="aboutus-second-para">
                 <p>
                   When an IDO is listed on our dashboard, all settings are
@@ -241,7 +245,7 @@ export default function Home(props) {
             </div>
             <div className="col-md-6 order-1 order-md-2">
               <div className="about-illustration-wrap ">
-                <img src="assets/images/YFICSTPES.svg" alt="" />
+                <img src="assets/images/seven.png" alt="" />
               </div>
             </div>
           </div>
@@ -395,7 +399,8 @@ export default function Home(props) {
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
-              <button className="btn custom-btn rounded-btn">Download</button>
+           
+              <Model/>
               <p>Smartphone based Wallet App</p>
               <div className="app-btns">
                 <a href="#">

@@ -65,8 +65,8 @@ const Wallet = (props) => {
                 <div className="row wallet-content-row">
                   <div className="col-md-6 col-lg-6 col-xl-6 order-2 order-md-1">
                     <div className="about-illustration-wrap ">
-                      {/* <img src="assets/images/RealWorldSolutions.png" alt="" /> */}
-                      <ReactPlayer />
+                      <img src="assets/images/video.gif" alt="" />
+                      {/* <ReactPlayer /> */}
                     </div>
                   </div>
                   <div className="col-md-6 col-lg-6 col-xl-6 order-md-2 order-1">
