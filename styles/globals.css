@@ -557,7 +557,28 @@ body .marquee-container{
 /*---------------------- End Hero Section ---------------------*/
 
 /*---------------------- Home ---------------------*/
-
+.Project-icon{
+  max-width: 60px;
+  height: 60px;
+  margin:0 auto 10px auto;
+}
+.Project-icon img{
+  height: 100%;
+  width: 100%;
+}
+.Project-Highlights-header {
+  margin-bottom: 20px;
+}
+.Project-Highlights-content-box {
+  margin-top: 50px;
+}
+.row.Project-Highlights-wrapper {
+  margin: 0px auto 0px auto;
+  width: 80%;
+}
+.Project-extra-margin{
+  margin-left:10px;
+}
 /*---------------------- YearnCash Chart Section ---------------------*/
 .yearcash-chart-Rank{
   text-align: right;
@@ -1035,7 +1056,7 @@ body .skylight-close-button h2{
   display: flex;
   margin: 0 auto;
   text-align: center;
-  width: 90%;
+  width: 80%;
 }
 .Copied-text{
     color: #0B7F42;
@@ -1058,7 +1079,7 @@ body .invest-container,
   text-align: left;
 }
 .yearn-cash-copy form input {
-  width: 400px;
+  width: 100%;
   border: 2px solid #0B7F42;
   color: #0000005e;
 }
@@ -1126,7 +1147,7 @@ body .invest-container,
   width: 100%;
   background-position: bottom;
   background-repeat: no-repeat;
-  background-size: 180px;
+  background-size: 250px;
   min-height: 450px;
   position: relative;
 }
@@ -1519,6 +1540,7 @@ footer .copyright-wrap span{
 }
 .Footer-wrapper .col-md-2 .list-unstyled li a{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .Footer-wrapper .col-md-2 .list-unstyled li a i{
@@ -2081,6 +2103,10 @@ footer .copyright-wrap span{
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .row.Project-Highlights-wrapper {
+    margin: 0px auto 0px auto;
+    width: 95%;
+  }
   .dark-mode-toggle {
     justify-content: space-around;
     padding-top: 10px;

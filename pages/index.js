@@ -16,7 +16,7 @@ var stringify = require("json-stringify-safe");
 export default function Home(props) {
   const [yfic, setYfic] = useState(JSON.parse(props.data));
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
-  const [modal,setModal] = useState(false)
+  const [modal, setModal] = useState(false);
 
   return (
     // <div>
@@ -82,20 +82,24 @@ export default function Home(props) {
                 <span>Week</span>
                 <div className="change">
                   {yfic &&
-                    yfic?.data?.week.price_change?.toString(10).split("")[0] ==
+                  yfic?.data?.week.price_change?.toString(10).split("")[0] ==
                     "-" ? (
                     <span className="change-down">
                       {" "}
-                      {`${yfic && yfic?.data?.week.price_change[0]}${yfic && yfic?.data?.week.price_change[1]
-                        }${yfic && yfic?.data?.week.price_change[2]}${yfic && yfic?.data?.week.price_change[3]
-                        }${yfic && yfic?.data?.week.price_change[4]}`}
+                      {`${yfic && yfic?.data?.week.price_change[0]}${
+                        yfic && yfic?.data?.week.price_change[1]
+                      }${yfic && yfic?.data?.week.price_change[2]}${
+                        yfic && yfic?.data?.week.price_change[3]
+                      }${yfic && yfic?.data?.week.price_change[4]}`}
                     </span>
                   ) : (
                     <span className="change-up">
                       {" "}
-                      {`${yfic && yfic?.data?.week.price_change[0]}${yfic && yfic?.data?.week.price_change[1]
-                        }${yfic && yfic?.data?.week.price_change[2]}${yfic && yfic?.data?.week.price_change[3]
-                        }${yfic && yfic?.data?.week.price_change[4]}`}
+                      {`${yfic && yfic?.data?.week.price_change[0]}${
+                        yfic && yfic?.data?.week.price_change[1]
+                      }${yfic && yfic?.data?.week.price_change[2]}${
+                        yfic && yfic?.data?.week.price_change[3]
+                      }${yfic && yfic?.data?.week.price_change[4]}`}
                     </span>
                   )}
                 </div>
@@ -106,18 +110,20 @@ export default function Home(props) {
                 <span>Month</span>
                 <div className="change">
                   {yfic &&
-                    yfic?.data?.month.price_change?.toString(10).split("")[0] ==
+                  yfic?.data?.month.price_change?.toString(10).split("")[0] ==
                     "-" ? (
                     <span className="change-down">
                       {" "}
-                      {`${yfic && yfic?.data?.month.price_change[0]}${yfic && yfic?.data?.month.price_change[1]
-                        }${yfic && yfic?.data?.month.price_change[2]}`}
+                      {`${yfic && yfic?.data?.month.price_change[0]}${
+                        yfic && yfic?.data?.month.price_change[1]
+                      }${yfic && yfic?.data?.month.price_change[2]}`}
                     </span>
                   ) : (
                     <span className="change-up">
                       {" "}
-                      {`${yfic && yfic?.data?.month.price_change[0]}${yfic && yfic?.data?.month.price_change[1]
-                        }${yfic && yfic?.data?.month.price_change[2]}`}
+                      {`${yfic && yfic?.data?.month.price_change[0]}${
+                        yfic && yfic?.data?.month.price_change[1]
+                      }${yfic && yfic?.data?.month.price_change[2]}`}
                     </span>
                   )}
                 </div>
@@ -128,18 +134,20 @@ export default function Home(props) {
                 <span>Year</span>
                 <div className="change">
                   {yfic &&
-                    yfic?.data?.year.price_change?.toString(10).split("")[0] ==
+                  yfic?.data?.year.price_change?.toString(10).split("")[0] ==
                     "-" ? (
                     <span className="change-down">
                       {" "}
-                      {`${yfic && yfic?.data?.year.price_change[0]}${yfic && yfic?.data?.year.price_change[1]
-                        }${yfic && yfic?.data?.year.price_change[2]}`}
+                      {`${yfic && yfic?.data?.year.price_change[0]}${
+                        yfic && yfic?.data?.year.price_change[1]
+                      }${yfic && yfic?.data?.year.price_change[2]}`}
                     </span>
                   ) : (
                     <span className="change-up">
                       {" "}
-                      {`${yfic && yfic?.data?.year.price_change[0]}${yfic && yfic?.data?.year.price_change[1]
-                        }${yfic && yfic?.data?.year.price_change[2]}`}
+                      {`${yfic && yfic?.data?.year.price_change[0]}${
+                        yfic && yfic?.data?.year.price_change[1]
+                      }${yfic && yfic?.data?.year.price_change[2]}`}
                     </span>
                   )}
                 </div>
@@ -195,7 +203,17 @@ export default function Home(props) {
               </div>
             </div>
             <div className="col-md-6 second-para-wrapper">
-            Yearn Cash seeks to be the cryptocurrency by the people and for the people. Our intention is to be adopted for use as a peer-to peer (P2P) payment system, which gives the power back to the people as well as solve real world problems that are faced daily. Yearn Cash is an ERC-20 Token, which are blockchain-based assets that have value and can be received and sent. ERC-20 tokens reside on the Ethereum blockchain. Another key benefit of Yearn Cash is that it uses the latest technological advances such as Defi and is completely open to integration of future industry developments, such as sharding and quantic tech amongst other future developments.
+              Yearn Cash seeks to be the cryptocurrency by the people and for
+              the people. Our intention is to be adopted for use as a peer-to
+              peer (P2P) payment system, which gives the power back to the
+              people as well as solve real world problems that are faced daily.
+              Yearn Cash is an ERC-20 Token, which are blockchain-based assets
+              that have value and can be received and sent. ERC-20 tokens reside
+              on the Ethereum blockchain. Another key benefit of Yearn Cash is
+              that it uses the latest technological advances such as Defi and is
+              completely open to integration of future industry developments,
+              such as sharding and quantic tech amongst other future
+              developments.
               {/* <h2>What is YFIC?</h2>
               <p>
                 YFIC is an automated full-service Initial DEX Offering Launchpad
@@ -226,8 +244,15 @@ export default function Home(props) {
           </div>
           <div className="row second-row">
             <div className="col-md-6 second-para-wrapper order-md-1 order-2 ">
-            Yearn Cash is a protocol on the Ethereum blockchain. The purpose of which is to offer the user a convenient and simple mobile tool and decentralized product beyond the simple management of decentralized applications.The ultimate goal of the Yearn Cash protocol is to provide an integrated DeFi platform that users and the community do not need to look for to use. In 
-addition, the Yearn Cash product also provides risk mitigation measures. If wepay attention to all DeFi products, we see maximum market and price manipulation.
+              Yearn Cash is a protocol on the Ethereum blockchain. The purpose
+              of which is to offer the user a convenient and simple mobile tool
+              and decentralized product beyond the simple management of
+              decentralized applications.The ultimate goal of the Yearn Cash
+              protocol is to provide an integrated DeFi platform that users and
+              the community do not need to look for to use. In addition, the
+              Yearn Cash product also provides risk mitigation measures. If
+              wepay attention to all DeFi products, we see maximum market and
+              price manipulation.
               {/* <div className="aboutus-second-para">
                 <p>
                   When an IDO is listed on our dashboard, all settings are
@@ -303,7 +328,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
           <div className="row">
             <div className="col-md-12 text-center">
               <div className="allocation-content">
-              <h2>Project Highlights</h2>
+                <h2>Project Highlights</h2>
                 <div className="Allocations-content">
                   {/* <p>
                     For community-based efforts, Multisig wallets for DAOs and
@@ -311,7 +336,168 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
                     6 of 9 community wallet signers must agree to sign a
                     transaction before a Smart Contract can be implemented.
                   </p> */}
-                  <img src="assets/images/Allocations2.jpg" alt="" />
+                  {/* <img src="assets/images/Allocations2.jpg" alt="" /> */}
+                  <div className="row Project-Highlights-wrapper">
+                    <div className="col-12">
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/security.png"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <h5>SECURITY</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) has a total supply of 35,000
+                            tokens and there will not be any more ever created.
+                            The team owns more than 65% of the supply. YFIC has
+                            passed a token security assessment performed by
+                            Solidity. YFIC is approved by a 9-member
+                            multi-signature wallet. Changes must be signed by 6
+                            out of the 9 wallet signers in order to be
+                            implemented. The members of the multi-signature
+                            wallet were voted in by YFIC holders and are subject
+                            to change from future governance votes.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/wallet.png"
+                              alt=""
+                            />
+                          </div>
+                          <h5 className="Project-extra-margin">WALLET</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) has partnered with yEARN Wallet to
+                            power the Wallet’s Crypto Gaming platform. The
+                            wallet will allow you to earn YFIC rewards for
+                            completing challenges and playing the “in wallet”
+                            casino. yEARN Wallet is far from just another Mobile
+                            Cryptocurrency Wallet Application to store, stake,
+                            swap, etc. The yEARN Wallet will be taking it to an
+                            entirely new level by incorporating a
+                            Blockchain-Enabled Internet of Things (IOT) Platform
+                            specifically designed for the End-to-End Industrial
+                            Supply Chain to improve the transparency, safety,
+                            security, traceability, and throughput. We
+                            accomplish this through a two-layer blockchain
+                            design, proof of authority based smart contracts
+                            integrated through ChainLink’s Oracles and consensus
+                            design
+                          </p>
+                        </div>
+                      </div>
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/P2P.png"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <h5 className="Project-extra-margin">P2P</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) has been created by the people for
+                            the people. YFIC will be used as a peer-to-peer
+                            (P2P) payment system that takes the power away from
+                            large financial institutions and gives the power
+                            back to the people. Imagine banking with no
+                            intermediary, no fees, instant transactions, and no
+                            paying for unnecessary services. YFIC is a more
+                            convenient and efficient payment system with faster
+                            payment settlement, as well as a way for merchants
+                            to receive money without the need of a third party.
+                            This creates a way for businesses and individuals to
+                            accept payment without high transaction fees. Our
+                            goal is to be able to transfer money across the
+                            globe with low fees and simple payment solutions,
+                            thus giving people complete control of their money.
+                            Our P2P payment system is built on the latest
+                            technology and can be used on many industries.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-12">
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/casino.png"
+                              alt=""
+                            />
+                          </div>
+                          <h5 className="Project-extra-margin">CASINO</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) will be a payment option while
+                            utilizing the "in wallet" casino and sports book
+                            that will allow users to receive alternative methods
+                            of winning just by using the YFIC token. This will
+                            be one of the first and only wallets that will allow
+                            the user to have so much right at their fingertips.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/staking.png"
+                              alt=""
+                              srcset=""
+                            />
+                          </div>
+                          <h5>STAKING</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) will offer a wide array of staking
+                            options. Staking YFIC directly within the yEARN
+                            wallet will allow you to lock your YFIC holdings to
+                            receive rewards such as additional YFIC and will be
+                            looking at allowing other ERC-20 tokens to be staked
+                            as well.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="Project-Highlights-content-box">
+                        <div className="Project-Highlights-header">
+                          <div className="Project-icon">
+                            <img
+                              src="assets/icons/referral.png"
+                              alt=""
+                            />
+                          </div>
+                          <h5 className="Project-extra-margin">REWARDS</h5>
+                        </div>
+                        <div className="Project-text-wrapper">
+                          <p className="Project-text">
+                            YFIC (Yearn Cash) can be rewarded for referring new
+                            users to the platform or by simply just holding a
+                            certain amount of the YFIC token. YFIC will
+                            incentivize users to use YFIC with great bonuses and
+                            discount over other coins. By holding the YFIC token
+                            and utilizing the yEARN wallet the rewards will
+                            change as we continue to grow.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -365,7 +551,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
-              <h2 style={{marginTop : '20px'}}>YFIC Partners</h2>
+              <h2 style={{ marginTop: "20px" }}>YFIC Partners</h2>
               <div className="mt-5 comapany-logos">
                 {/* <p>
                   Projects that launch through YFIC will have the opportunity to
@@ -387,10 +573,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
               </div>
             </div>
           </div>
-          <div className="OwlCarousel-wrapper">
-            {/* <MySlider /> */}
-          </div>
-
+          <div className="OwlCarousel-wrapper">{/* <MySlider /> */}</div>
         </div>
       </section>
       {/* <!---------------------- End Partners Section ---------------------> */}
@@ -399,8 +582,7 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
         <div className="container custom-contain">
           <div className="row text-center">
             <div className="col-md-12">
-           
-              <Model/>
+              <Model />
               <p>Smartphone based Wallet App</p>
               <div className="app-btns">
                 <a href="#">
@@ -427,7 +609,9 @@ addition, the Yearn Cash product also provides risk mitigation measures. If wepa
               </p> */}
               <div className="btn-wrapper">
                 <a target="_blank" href="https://t.me/yearnwallet">
-                  <button className="btn custom-btn">Join Us On Telegram</button>
+                  <button className="btn custom-btn">
+                    Join Us On Telegram
+                  </button>
                 </a>
               </div>
             </div>
