@@ -557,6 +557,9 @@ body .marquee-container{
 /*---------------------- End Hero Section ---------------------*/
 
 /*---------------------- Home ---------------------*/
+.image-with-text-first-block{
+  text-align: left;
+}
 .Project-icon{
   max-width: 60px;
   height: 60px;
