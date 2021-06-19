@@ -9,7 +9,7 @@ const Layout = ({ children , title }) => {
         <title>{title}</title>
         <link rel="icon" href="/favicon.ico" />
         {/* <!---------------------- Required meta tags ---------------------> */}
-        <meta name="description" content="" />
+        <meta name="description" content="All rights reserved to yearncash.io © 2021" />
         <meta charSet="utf-8" />
         <meta
           name="viewport"
