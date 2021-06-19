@@ -53,19 +53,19 @@ const Invest = (props) => {
                   <img src="assets/icons/Rectangle189.png" alt="" />
                 </div>
               </div>
-              {/* <div className="col-md-4 col-sm-4 col-6">
+              <div className="col-md-4 col-sm-4 col-6">
                 <div className="exchange-image">
-                  <img src="assets/icons/Rectangle190.png" alt="" />
+                  <img src="assets/icons/Rectangle192.png" alt="" />
+                </div>
+              </div>
+              <div className="col-md-4 col-sm-4 col-6">
+                <div className="exchange-image">
+                  <img src="assets/icons/Rectangle 190.png" alt="" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4 col-6">
                 <div className="exchange-image">
                   <img src="assets/icons/Rectangle191.png" alt="" />
-                </div>
-              </div> */}
-              <div className="col-md-4 col-sm-4 col-6">
-                <div className="exchange-image">
-                  <img src="assets/icons/Rectangle192.png" alt="" />
                 </div>
               </div>
             </div>

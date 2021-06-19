@@ -8,8 +8,8 @@ class Countdownn extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      dateValue: "07-16-2021",
-      timeValue: '12:12',
+      dateValue: "07-15-2021",
+      timeValue: '05:00',
       ampmValue: 'am',
       countdown: {
         days: '',

@@ -52,7 +52,7 @@ const roadmap = (props) => {
                     <h2>03</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/mobile.svg" alt="" />{" "}
-                      <p>Hobit Listing</p>
+                      <p>Hotbit Listing</p>
                     </div>
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const roadmap = (props) => {
                     <h2>05</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/real-world.svg" alt="" />{" "}
-                      <p>Lbank Listing</p>
+                      <p>Added 16,000 YFIC to team multisig wallet</p>
                     </div>
                   </div>
                 </div>
@@ -92,8 +92,7 @@ const roadmap = (props) => {
                     <div className="roadmap-image">
                       <img src="assets/icons/marketing.svg" alt="" />{" "}
                       <p>
-                        In conversation about a partnership with the
-                        U.S.Cannabis industry & Yearn Cash
+                      Partnered with U.S. Cannabis Industry and Rogers Financial
                       </p>
                     </div>
                   </div>
@@ -103,7 +102,7 @@ const roadmap = (props) => {
                     <h2>08</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/bilaxy.svg" alt="" />{" "}
-                      <p>Marketing launch before the listing</p>
+                      <p>Pre marketing campaign for potential exchange listing</p>
                     </div>
                   </div>
                 </div>
@@ -112,7 +111,7 @@ const roadmap = (props) => {
                     <h2>09</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/dollar.svg" alt="" />
-                      <p>Bilaxy Listing</p>
+                      <p>WhiteBit or premium exchange listing</p>
                     </div>
                   </div>
                 </div>
@@ -121,7 +120,7 @@ const roadmap = (props) => {
                     <h2>10</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/wallet.svg" alt="" />{" "}
-                      <p>Find and conduct stake on partner platform</p>
+                      <p>Implement YFIC for use on NFT platform as a payment option</p>
                     </div>
                   </div>
                 </div>
@@ -131,7 +130,7 @@ const roadmap = (props) => {
                     <div className="roadmap-image">
                       <img src="assets/icons/website.svg" alt="" />{" "}
                       <p>
-                        Create a partnership with Ledger to stake cold wallet
+                      Created payment option for YFIC on crypto casino and use as a reward token in yEARN Wallet.
                       </p>
                     </div>
                   </div>
@@ -141,7 +140,7 @@ const roadmap = (props) => {
                     <h2>12</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/wallet.svg" alt="" />{" "}
-                      <p>Find and conduct stake on partner platform</p>
+                      <p>YFIC to be used as an option for settling payments in the Marijuana Industry</p>
                     </div>
                   </div>
                 </div>

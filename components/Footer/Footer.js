@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
-const Footer = ({darkMode}) => {
+const Footer = ({ darkMode }) => {
 
 
- 
 
-    
+
+
     return (
         <div className="Footer-wrapper">
             <footer>
@@ -14,7 +14,7 @@ const Footer = ({darkMode}) => {
                     <div className="row">
                         <div className="col-md-3">
                             <div className="footer-logo">
-                                <img src={ !darkMode ? "assets/icons/Main-logo.svg" : "assets/icons/White-logo.svg"} alt="" />
+                                <img src={!darkMode ? "assets/icons/Main-logo.svg" : "assets/icons/White-logo.svg"} alt="" />
                             </div>
                             {/* <div className="site-name">
                         <h6>Yearn Cash</h6>
@@ -49,21 +49,21 @@ const Footer = ({darkMode}) => {
                             <h6>Social Media</h6>
                             <ul className="list-unstyled">
                                 <li><a target="_blank" href="https://www.facebook.com/yearncash/"><i class="fab fa-facebook-square"></i> /YearnCash</a></li>
-                                <li><a target="_blank" href="https://twitter.com/devscash"><i class="fab fa-twitter"></i> @devscash/@yearnwallet</a></li>
-                                <li><a target="_blank" href="https://www.instagram.com/yearn.cash"><i class="fab fa-instagram"></i> @YearnCash</a></li>
-                                <li><a target="_blank" href="https://t.me/Yficgenesis"><i class="fab fa-telegram-plane"></i> @Yficgenesis/@yearnwallet</a></li>
-                                <li><a target="_blank" href="https://mail.google.com/mail"><i class="fas fa-envelope"></i> Yearn Cash</a></li>
+                                <li><a target="_blank" href="https://twitter.com/devscash"><i class="fab fa-twitter"></i> @devscash</a><a target="_blank" href="https://twitter.com/yearnwallet"> @yearnwallet</a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/yearn.cash"><i class="fab fa-instagram"></i> @YearnCash</a></li>
+                            <li><a target="_blank" href="https://t.me/Yficgenesis"><i class="fab fa-telegram-plane"></i> @Yficgenesis</a><a target="_blank" href="https://twitter.com/yearnwallet"> @yearnwallet</a></li>
+                            <li><a target="_blank" href="https://mail.google.com/mail"><i class="fas fa-envelope"></i> Yearn Cash</a></li>
                             </ul>
-                        </div>
                     </div>
                 </div>
-                <div className="text-center">
-                    <div className="copyright-wrap">
-                        <span>All rights reserved to yearncash.io 2021</span>
-                    </div>
                 </div>
+            <div className="text-center">
+                <div className="copyright-wrap">
+                    <span>All rights reserved to yearncash.io 2021</span>
+                </div>
+            </div>
             </footer>
-        </div>
+        </div >
     );
 };
 

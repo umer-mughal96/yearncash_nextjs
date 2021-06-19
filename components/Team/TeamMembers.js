@@ -23,8 +23,7 @@ const TeamMembers = () => {
               </div>
               <div className="person-desc">
                 <p>
-                  Over 9 years experience in Blockchain technology. One of the
-                  first original developers on the Yearn Finance team. Top
+                  Over 9 years experience in Blockchain technology. One of the original developers on the Yearn Finance team. Top
                   trader on Binance.
                 </p>
               </div>

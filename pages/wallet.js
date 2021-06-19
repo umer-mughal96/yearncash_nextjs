@@ -423,7 +423,7 @@ const Wallet = (props) => {
                       </div>
                     </div>
                   </div>
-                  <div className="containers left white-check">
+                  {/* <div className="containers left white-check">
                     <div className="content">
                       <h2>14</h2>
                       <div className="roadmap-image">
@@ -431,7 +431,7 @@ const Wallet = (props) => {
                         <p>RULE THE FUCKING WORLD JK JK HOPEFULLY SOMEONE READS THIS SHIT</p>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               {/* Second tree */}
