@@ -60,7 +60,7 @@ const Invest = (props) => {
               </div>
               <div className="col-md-4 col-sm-4 col-6">
                 <div className="exchange-image">
-                  <img src="assets/icons/Rectangle 190.png" alt="" />
+                  <img src="assets/icons/Rectangle.png" alt="" />
                 </div>
               </div>
               <div className="col-md-4 col-sm-4 col-6">
