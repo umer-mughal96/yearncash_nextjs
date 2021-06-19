@@ -202,11 +202,11 @@ export default function Home(props) {
                 <img src="assets/images/image1.png" alt="" />
               </div>
             </div>
-            <div className="col-md-6 second-para-wrapper">
+            <div className="col-md-6 second-para-wrapper image-with-text-first-block">
               Yearn Cash seeks to be the cryptocurrency by the people and for
               the people. Our intention is to be adopted for use as a peer-to
               peer (P2P) payment system, which gives the power back to the
-              people as well as solve real world problems that are faced daily.
+              people as well as solves real world problems that are faced daily.
               Yearn Cash is an ERC-20 Token, which are blockchain-based assets
               that have value and can be received and sent. ERC-20 tokens reside
               on the Ethereum blockchain. Another key benefit of Yearn Cash is
@@ -244,15 +244,18 @@ export default function Home(props) {
           </div>
           <div className="row second-row">
             <div className="col-md-6 second-para-wrapper order-md-1 order-2 ">
-              Yearn Cash is a protocol on the Ethereum blockchain. The purpose
-              of which is to offer the user a convenient and simple mobile tool
-              and decentralized product beyond the simple management of
-              decentralized applications.The ultimate goal of the Yearn Cash
-              protocol is to provide an integrated DeFi platform that users and
-              the community do not need to look for to use. In addition, the
-              Yearn Cash product also provides risk mitigation measures. If
-              wepay attention to all DeFi products, we see maximum market and
-              price manipulation.
+              Far from just another mobile cryptocurrency wallet application.
+              Through our underlying technology and partnerships, yEARN Wallet
+              will enable businesses in under-banked, highly regulated
+              industry’s to break free from the burdens that prevent them from
+              access to standard banking products.  Yearn Cash is a P2P - ERC20
+              token created with the intention of giving the power back to the
+              people. As the native token in the wallet, users can be paid
+              rewards and referrals in Yearn Cash. YFIC will also be used to
+              power the cryptocurrency casino / sportsbook features in the
+              wallet. Through our unique partnership positioning, we’ll even
+              have the ability to implement Yearn Cash as a means of transacting
+              on the retail level.
               {/* <div className="aboutus-second-para">
                 <p>
                   When an IDO is listed on our dashboard, all settings are
@@ -368,10 +371,7 @@ export default function Home(props) {
                       <div className="Project-Highlights-content-box">
                         <div className="Project-Highlights-header">
                           <div className="Project-icon">
-                            <img
-                              src="assets/icons/wallet.png"
-                              alt=""
-                            />
+                            <img src="assets/icons/wallet.png" alt="" />
                           </div>
                           <h5 className="Project-extra-margin">WALLET</h5>
                         </div>
@@ -399,11 +399,7 @@ export default function Home(props) {
                       <div className="Project-Highlights-content-box">
                         <div className="Project-Highlights-header">
                           <div className="Project-icon">
-                            <img
-                              src="assets/icons/P2P.png"
-                              alt=""
-                              srcset=""
-                            />
+                            <img src="assets/icons/P2P.png" alt="" srcset="" />
                           </div>
                           <h5 className="Project-extra-margin">P2P</h5>
                         </div>
@@ -434,10 +430,7 @@ export default function Home(props) {
                       <div className="Project-Highlights-content-box">
                         <div className="Project-Highlights-header">
                           <div className="Project-icon">
-                            <img
-                              src="assets/icons/casino.png"
-                              alt=""
-                            />
+                            <img src="assets/icons/casino.png" alt="" />
                           </div>
                           <h5 className="Project-extra-margin">CASINO</h5>
                         </div>
@@ -477,10 +470,7 @@ export default function Home(props) {
                       <div className="Project-Highlights-content-box">
                         <div className="Project-Highlights-header">
                           <div className="Project-icon">
-                            <img
-                              src="assets/icons/referral.png"
-                              alt=""
-                            />
+                            <img src="assets/icons/referral.png" alt="" />
                           </div>
                           <h5 className="Project-extra-margin">REWARDS</h5>
                         </div>
