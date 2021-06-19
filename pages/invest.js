@@ -11,7 +11,7 @@ const Invest = (props) => {
   const [copied, setCopied] = useState("");
   return (
     <div>
-      <Layout title="Invest" />
+      <Layout title="Find Yearn Cash on HotBit, Uniswap, 1Inch, Sushiswap, Pancake Swap and more coming!" />
       <SubHeader marqueeData={marqueeData} />
       {/* <!---------------------- End Hero Section ---------------------> */}
       <div className="container-fluid">

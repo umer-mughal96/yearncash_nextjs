@@ -9,7 +9,7 @@ const roadmap = (props) => {
 
   return (
     <div>
-      <Layout title="Yearn Cash (YFIC) Road Map" />
+      <Layout title="Check out our progress and plans for the future!" />
       <div className="roadmap-page">
         <SubHeader marqueeData={marqueeData} />
         {/* <!-- ===================== Road Map Section  ======================== --> */}

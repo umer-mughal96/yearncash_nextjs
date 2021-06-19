@@ -10,7 +10,7 @@ const team = (props) => {
 
   return (
     <div>
-      <Layout title="Team" />
+      <Layout title="Meet the Yearn Team!" />
       <div className="team-page">
       <SubHeader marqueeData={marqueeData} />
         {/* <!---------------------- Partners Section ---------------------> */}
