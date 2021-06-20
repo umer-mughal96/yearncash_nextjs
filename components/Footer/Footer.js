@@ -2,11 +2,6 @@ import React, { useEffect, useState } from "react";
 import Link from "next/link";
 
 const Footer = ({ darkMode }) => {
-
-
-
-
-
     return (
         <div className="Footer-wrapper">
             <footer>

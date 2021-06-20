@@ -1542,9 +1542,7 @@ footer .copyright-wrap span{
   font-family: "poppins-regular";
 }
 .Footer-wrapper .col-md-2 .list-unstyled li a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-align: left;
 }
 .Footer-wrapper .col-md-2 .list-unstyled li a i{
   margin-right:5px;
