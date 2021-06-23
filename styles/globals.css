@@ -1677,9 +1677,10 @@ footer .copyright-wrap span{
 .promotions{
 	background-image: linear-gradient(to bottom,  #00000087,  #00000087),url("../public/assets/images/promotion-bg.jpeg");
 	background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background-size: cover;
+  background-position: center;
 	color: #ffffff;
+  padding: 80px 0;
 }
 .promotions .yearn-logo{
 	width:80px;

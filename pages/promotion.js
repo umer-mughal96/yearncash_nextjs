@@ -12,7 +12,7 @@ const promotion = (props) => {
             <Layout title="Promotions" />
             <SubHeader marqueeData={marqueeData} />
             {/* <!---------------------- Promotions Section ---------------------> */}
-            <section className="promotions">
+            <div className="promotions">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-md-5 order-md-1 order-4  p-0">
@@ -226,7 +226,7 @@ const promotion = (props) => {
                     </div>
 
                 </div>
-            </section>
+            </div>
             {/* <!---------------------- End Promotions Section ---------------------> */}
         </div>
     );
