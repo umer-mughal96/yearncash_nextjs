@@ -55,6 +55,11 @@ const Header = ({handleParentDarkMode}) => {
                 </a>
               </li>
               <li className="nav-item">
+                <a className="nav-link" href="/promotion">
+                  Promotions
+                </a>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link" href="/whitepaper">
                   Whitepaper
                 </a>

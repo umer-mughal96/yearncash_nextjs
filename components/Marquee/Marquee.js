@@ -14,7 +14,7 @@ const Marqueee = ({ marqueeData }) => {
         let isFind = marqueeData.data.data.find((c) => c.id == logos[i].id);
         if (isFind) {
           isFind.logo = logos[i].logo;
-          finalData.push(isFind);
+          finalData.push(isFind); 
         }
       }
       setCoinsRate(finalData);

@@ -17,6 +17,9 @@ const HeroMenu = () => {
     if (router.pathname == "/wallet") {
       setActive("Wallet");
     }
+    if (router.pathname == "/promotion") {
+      setActive("Promotion");
+    }
     if (router.pathname == "/whitepaper") {
       setActive("Whitepaper");
     }
@@ -50,6 +53,14 @@ const HeroMenu = () => {
             <li className={active == "Wallet" ? `nav-item active` : "nav-item"}>
               <Link className="nav-link" href="/wallet">
                 Wallet
+              </Link>
+            </li>
+            <li className={active == "Promotion" ? `nav-item active` : "nav-item"}>
+              <Link
+                  className="nav-link"
+                  href="/promotion"
+              >
+                Promotions
               </Link>
             </li>
             <li

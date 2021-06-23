@@ -334,7 +334,7 @@ header {
 .custom-nav ul {
 	background: #FFFFFF;
 	padding: 14px 40px;
-	max-width: 778px;
+	max-width: auto;
 	margin: auto;
 	border-radius: 39px;
 	box-shadow: 0px 0px 6px #00000029;
@@ -1673,6 +1673,58 @@ footer .copyright-wrap span{
       font-size: 16px;
  }
 }
+
+.promotions{
+	background-image: linear-gradient(to bottom,  #00000087,  #00000087),url("../public/assets/images/promotion-bg.jpeg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	color: #ffffff;
+}
+.promotions .yearn-logo{
+	width:80px;
+	height: 80px;
+	margin: auto;
+}
+.promotions p{
+	font-size: 22px;
+	letter-spacing: 0px;
+}
+.promotions a span{
+	font-size: 24px;
+	padding-left: 8px;
+}
+.promotions .eth-icon{
+	text-align: center;
+}
+.promotions a{
+	color: #ffffff;
+}
+.promotions .row:nth-child(even){
+	padding: 30px 0px;
+}
+.promotions .panel{
+	padding: 43px;
+	border: 1px solid #ffffff;
+}
+.promotions .border-style-one{
+	border-radius: 0px 23px 23px 0px;
+}
+.promotions .nft-img img{
+	width: 270px;
+}
+.promotions .border-style-two{
+	border-radius: 23px 0px 0px 23px;
+}
+.promotions .more-info-wrapper a{
+	font-size: 28px;
+}
+.promotions .social a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+}
+
+
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   /*-------------------------------------------------------------- Start Home Page --------------------------------------------------------------*/
@@ -1747,6 +1799,19 @@ footer .copyright-wrap span{
     width: 97%;
     margin: 0 auto;
   }
+
+  .promotions .nft-img img {
+		width: 200px;
+	}
+	.promotions .panel {
+		padding: 20px;
+	}
+	.promotions a span {
+		font-size: 14px;
+	}
+	.promotions p {
+		font-size: 16px;
+	}
 }
 /* Medium devices (tablets, 768px and up) */
 
@@ -1878,6 +1943,28 @@ footer .copyright-wrap span{
   }
   /*---------------------- End Footer ---------------------*/
   /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+  .promotions .nft-img img {
+		width: 150px;
+	}
+	.promotions svg{
+		width: 80px;
+	}
+	.promotions .social svg{
+		width: 30px;
+	}
+	.promotions .more-info-wrapper a {
+		font-size: 18px;
+	}
+	.promotions .panel {
+		padding: 20px;
+	}
+	.promotions a span {
+		font-size: 16px;
+	}
+	.promotions p {
+		font-size: 16px;
+	}
+
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -2101,6 +2188,51 @@ footer .copyright-wrap span{
   }
   /*---------------------- End Footer ---------------------*/
   /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+  .promotions .panel {
+		padding: 20px;
+		margin: 14px 0px;
+	}
+	.promotions .eth-icon{
+		text-align: left;
+	}
+	.promotions .panel p{
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	.promotions .border-style-one{
+		border-radius: 15px;
+	}
+	.promotions .border-style-two{
+		border-radius: 15px;
+	}
+	.promotions a span{
+		font-size: 14px;
+	}
+	.promotions .social a{
+		margin: auto;
+		padding: 4px 0px;
+	}
+	.promotions .p-0{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.promotions .yearn-logo{
+		width: 60px;
+	}
+	.promotions .nft-img img {
+		width: 210px;
+	}
+	.promotions svg{
+		width: 80px;
+		height: 60px;
+	}
+	.promotions .more-info-wrapper a {
+		font-size: 16px;
+	}
+	.promotions .social svg{
+		width: 30px;
+		height: 30px;
+	}
 }
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -2356,6 +2488,52 @@ footer .copyright-wrap span{
   }
   /*---------------------- End Footer ---------------------*/
   /*-------------------------------------------------------------- End Home Page --------------------------------------------------------------*/
+  .promotions .panel {
+		padding: 20px;
+		margin: 14px 0px;
+	}
+	.promotions .eth-icon{
+		text-align: left;
+	}
+	.promotions .panel p{
+		font-size: 14px;
+		margin-bottom: 0px;
+	}
+	.promotions .border-style-one{
+		border-radius: 15px;
+	}
+	.promotions .border-style-two{
+		border-radius: 15px;
+	}
+	.promotions a span{
+		font-size: 14px;
+	}
+	.promotions .social a{
+		margin: auto;
+		padding: 4px 0px;
+	}
+	.promotions .p-0{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.promotions .yearn-logo{
+		width: 60px;
+	}
+	.promotions .nft-img img {
+		width: 210px;
+	}
+	.promotions svg{
+		width: 80px;
+		height: 60px;
+	}
+	.promotions .more-info-wrapper a {
+		font-size: 16px;
+	}
+	.promotions .social svg{
+		width: 30px;
+		height: 30px;
+	}
+
 }
 @media (max-width: 375px) {
   .site-logo {
