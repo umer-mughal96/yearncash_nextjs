@@ -7,7 +7,7 @@ const Layout = ({ children , title ,favicon}) => {
     <div>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href={favicon || "favicon.ico"} />
+        <link rel="icon" href={favicon || "/favicon.ico"} />
         {/* <!---------------------- Required meta tags ---------------------> */}
         <meta name="description" content="All rights reserved to yearncash.io © 2021" />
         <meta charSet="utf-8" />
