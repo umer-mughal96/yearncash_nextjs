@@ -9,7 +9,7 @@ const codeofethics = (props) => {
 
   return (
     <div className="whitepaper-page">
-      <Layout title="White paper" />
+      <Layout title="White paper" favicon="icons/home.png" />
       <SubHeader marqueeData={marqueeData} />
       {/* <!---------------------- End Hero Section ---------------------> */}
       {/* <!-- ===================== whitepaper  section  ======================== --> */}

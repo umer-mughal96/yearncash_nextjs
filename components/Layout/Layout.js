@@ -2,12 +2,12 @@ import React from "react";
 import Head from "next/head";
 
 
-const Layout = ({ children , title }) => {
+const Layout = ({ children , title ,favicon}) => {
   return (
     <div>
       <Head>
         <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={favicon} />
         {/* <!---------------------- Required meta tags ---------------------> */}
         <meta name="description" content="All rights reserved to yearncash.io © 2021" />
         <meta charSet="utf-8" />
