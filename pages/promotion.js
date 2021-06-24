@@ -9,7 +9,7 @@ const promotion = (props) => {
 
     return (
         <div className="promotion-page">
-            <Layout title="Promotions" />
+            <Layout title="Promotions" favicon="icons/favicon.ico"/>
             <SubHeader marqueeData={marqueeData} />
             {/* <!---------------------- Promotions Section ---------------------> */}
             <div className="promotions">

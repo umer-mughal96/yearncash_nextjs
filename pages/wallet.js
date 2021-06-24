@@ -25,7 +25,7 @@ const Wallet = (props) => {
         <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center pb-0">
           <div className="container custom-contain wallet-hero-content">
             <div className="row">
-              <Marqueee marqueeData={marqueeData} />
+              <Marqueee marqueeData={marqueeData} favicon="icons/favicon.ico"/>
               <HeroMenu />
             </div>
             <div className="row">
