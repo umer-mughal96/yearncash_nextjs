@@ -9,7 +9,7 @@ const roadmap = (props) => {
 
   return (
     <div>
-      <Layout title="Check out our progress and plans for the future!" />
+      <Layout title="Check out our progress and plans for the future!" favicon="icons/roadmap.png" />
       <div className="roadmap-page">
         <SubHeader marqueeData={marqueeData} />
         {/* <!-- ===================== Road Map Section  ======================== --> */}

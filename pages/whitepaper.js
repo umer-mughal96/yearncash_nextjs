@@ -9,7 +9,7 @@ const whitepaper = (props) => {
 
   return (
     <div className="whitepaper-page">
-      <Layout title="Yearn Cash (YFIC) Whitepaper" />
+      <Layout title="Yearn Cash (YFIC) Whitepaper" favicon="icons/whitepaper.png" />
       <SubHeader marqueeData={marqueeData} />
       {/* <!---------------------- End Hero Section ---------------------> */}
       {/* <!-- ===================== whitepaper  section  ======================== --> */}

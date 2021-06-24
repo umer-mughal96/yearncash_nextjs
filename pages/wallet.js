@@ -19,7 +19,8 @@ const Wallet = (props) => {
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
   return (
     <div>
-      <Layout title="Introduction to yEARN Wallet Your One Stop Shop for Safely Storing, Staking, Swapping and even play Games to win crypto! " />
+      <Layout title="Introduction to yEARN Wallet Your One Stop Shop for Safely Storing, Staking, 
+      Swapping and even play Games to win crypto! " favicon="icons/wallet.png"  />
       <div className="wallet-page">
         <section className="hero transparent-hero d-flex flex-column justify-content-end align-items-center pb-0">
           <div className="container custom-contain wallet-hero-content">

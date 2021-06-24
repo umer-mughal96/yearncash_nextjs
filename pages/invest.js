@@ -11,7 +11,8 @@ const Invest = (props) => {
   const [copied, setCopied] = useState("");
   return (
     <div>
-      <Layout title="Find Yearn Cash on HotBit, Uniswap, 1Inch, Sushiswap, Pancake Swap and more coming!" />
+      <Layout title="Find Yearn Cash on HotBit, Uniswap, 1Inch, Sushiswap, Pancake Swap 
+      and more coming!" favicon="icons/invest.png" />
       <SubHeader marqueeData={marqueeData} />
       {/* <!---------------------- End Hero Section ---------------------> */}
       <div className="container-fluid">
