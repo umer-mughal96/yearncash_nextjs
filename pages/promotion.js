@@ -81,7 +81,7 @@ const promotion = (props) => {
                                 </g>
                             </svg>
                             <div className="more-info-wrapper">
-                                <a href="#">More info</a>
+                                <a href="https://opensea.io/assets/matic/0xa5f1ea7df861952863df2e8d1312f7305dabf215/16465">More info</a>
                             </div>
                         </div>
                     </div>
