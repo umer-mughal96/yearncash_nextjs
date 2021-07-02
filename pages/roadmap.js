@@ -11,7 +11,7 @@ const roadmap = (props) => {
     <div>
       <Layout title="Check out our progress and plans for the future!" favicon="icons/roadmap.png" />
       <div className="roadmap-page">
-        <SubHeader marqueeData={marqueeData} />
+        <SubHeader marqueeData={marqueeData} favicon="icons/favicon.ico"/>
         {/* <!-- ===================== Road Map Section  ======================== --> */}
         <div className="container-fluid">
           <div className="row">
