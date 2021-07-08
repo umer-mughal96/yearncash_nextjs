@@ -1720,6 +1720,9 @@ footer .copyright-wrap span{
 .promotions .more-info-wrapper a{
 	font-size: 28px;
 }
+.promotions .more-info-wrapper a:hover{
+  color: white;
+}
 .promotions .social a:hover{
   color:#ffffff;
   text-decoration:underline;

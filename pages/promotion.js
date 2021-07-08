@@ -60,7 +60,9 @@ const promotion = (props) => {
                         </div>
                         <div className="col-md-3 order-md-3 order-2">
                             <div className="nft-img">
-                                <img src="assets/images/horse.png" alt="" />
+                                <a href="https://opensea.io/assets/matic/0xa5f1ea7df861952863df2e8d1312f7305dabf215/16465">
+                                    <img src="assets/images/horse.png" alt="" />
+                                </a>
                             </div>
                         </div>
                         <div className="col-md-2 order-md-4 order-3">
@@ -81,7 +83,7 @@ const promotion = (props) => {
                                 </g>
                             </svg>
                             <div className="more-info-wrapper">
-                                <a href="https://opensea.io/assets/matic/0xa5f1ea7df861952863df2e8d1312f7305dabf215/16465">More info</a>
+                                <a href="https://zed.run/">More info</a>
                             </div>
                         </div>
                     </div>
