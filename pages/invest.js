@@ -7,12 +7,17 @@ import { CopyToClipboard } from "react-copy-to-clipboard";
 
 const Invest = (props) => {
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
-  const [value, setValue] = useState("0x9CF4679c67BEE8dA2D6F58c64592fFf6beE79330");
+  const [value, setValue] = useState(
+    "0x9CF4679c67BEE8dA2D6F58c64592fFf6beE79330"
+  );
   const [copied, setCopied] = useState("");
   return (
     <div>
-      <Layout title="Find Yearn Cash on HotBit, Uniswap, 1Inch, Sushiswap, Pancake Swap 
-      and more coming!" favicon="icons/invest.png" />
+      <Layout
+        title="Find Yearn Cash on HotBit, Uniswap, 1Inch, Sushiswap, Pancake Swap 
+      and more coming!"
+        favicon="icons/invest.png"
+      />
       <SubHeader marqueeData={marqueeData} />
       {/* <!---------------------- End Hero Section ---------------------> */}
       <div className="container-fluid">
@@ -71,7 +76,7 @@ const Invest = (props) => {
               </div>
             </div>
           </div>
-          
+
           <div className="col-md-12 p-0">
             <div className="yearn-cash-copi">
               <h5>Adding YFIC using MetaMask wallet</h5>
@@ -104,6 +109,30 @@ const Invest = (props) => {
               </ul>
             </div>
           </div>
+          {/* How to Incest code */}
+          <div className="Incest-code-wrapper">
+            {/* <div className="Incest-code-heading">
+              <h2>How to invest</h2>
+            </div> */}
+            <div className="Incest-code">
+              {/* <script
+                defer
+                src="https://www.livecoinwatch.com/static/lcw-widget.js"
+              ></script> */}
+              {/* <div
+                class="livecoinwatch-widget-6"
+                lcw-coin="YFIC"
+                lcw-base="USD"
+                lcw-period="d"
+                lcw-color-tx="#ffffff"
+                lcw-color-bg="#083c0b"
+                lcw-border-w="2"
+              >
+                <p>https://www.livecoinwatch.com/static/lcw-widget.js</p>
+              </div> */}
+            </div>
+          </div>
+          {/* How to Incest code */}
         </div>
       </div>
       {/* <!-- Invest Section --> */}

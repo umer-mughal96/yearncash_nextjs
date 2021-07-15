@@ -166,16 +166,16 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team7.jpeg"
+                  src="assets/images/KevinBautista.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
               </div>
               <div className="person-name">
-                <h3>Wesley Dost</h3>
+                <h3>Kevin Bautista</h3>
               </div>
               <div className="person-role">
-                <span> Social Media Head</span>
+                <span>Social Media Manager</span>
               </div>
               <div className="person-desc">
                 <p>
