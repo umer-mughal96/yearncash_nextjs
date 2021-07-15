@@ -107,32 +107,23 @@ const Invest = (props) => {
                   wallet
                 </li>
               </ul>
-            </div>
-          </div>
-          {/* How to Incest code */}
+              {/* How to Incest code */}
           <div className="Incest-code-wrapper">
-            {/* <div className="Incest-code-heading">
-              <h2>How to invest</h2>
-            </div> */}
             <div className="Incest-code">
-              {/* <script
-                defer
-                src="https://www.livecoinwatch.com/static/lcw-widget.js"
-              ></script> */}
-              {/* <div
-                class="livecoinwatch-widget-6"
+              <div
+                className="livecoinwatch-widget-6"
                 lcw-coin="YFIC"
                 lcw-base="USD"
                 lcw-period="d"
                 lcw-color-tx="#ffffff"
                 lcw-color-bg="#083c0b"
                 lcw-border-w="2"
-              >
-                <p>https://www.livecoinwatch.com/static/lcw-widget.js</p>
-              </div> */}
+              ></div>
             </div>
           </div>
           {/* How to Incest code */}
+            </div>
+          </div>
         </div>
       </div>
       {/* <!-- Invest Section --> */}

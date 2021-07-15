@@ -36,6 +36,7 @@ const Layout = ({ children , title ,favicon}) => {
           integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
           crossOrigin="anonymous"
         ></script>
+        <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> 
       </Head>
       {children}
     </div>
