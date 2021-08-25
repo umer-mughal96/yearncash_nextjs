@@ -76,7 +76,7 @@ const Header = ({handleParentDarkMode}) => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/signup">
-                Kryptopia
+                  CoinsLab
                 </a>
               </li>
             </ul>

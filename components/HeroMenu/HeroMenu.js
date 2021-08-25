@@ -87,7 +87,7 @@ const HeroMenu = () => {
               className={active == "Cryptonize Your Business" ? `nav-item active` : "nav-item"}
             >
               <Link className="nav-link" href="/signup">
-              Kryptopia
+              CoinsLab
               </Link>
             </li>
           </ul>

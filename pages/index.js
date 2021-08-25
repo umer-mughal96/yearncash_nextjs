@@ -13,7 +13,7 @@ export default function Home(props) {
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
 
   return (
-    <div> 
+    <div>
       <Layout title="Yearn Cash + yEARN Wallet offer cryptocurrency solutions to businesses. Users will find Blockchain Games, Crypto-Casino,
        Staking, Swapping, Rewards, Referrals and more!" favicon="icons/home.png" />
       <HomeSubHeader marqueeData={marqueeData} />
