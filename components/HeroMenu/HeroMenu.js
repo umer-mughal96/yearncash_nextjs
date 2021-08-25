@@ -53,11 +53,11 @@ const HeroMenu = () => {
                 Invest in YFIC
               </Link>
             </li>
-            <li className={active == "Wallet" ? `nav-item active` : "nav-item"}>
+            {/* <li className={active == "Wallet" ? `nav-item active` : "nav-item"}>
               <Link className="nav-link" href="/wallet">
                 Wallet
               </Link>
-            </li>
+            </li> */}
             <li className={active == "Promotion" ? `nav-item active` : "nav-item"}>
               <Link
                   className="nav-link"
@@ -83,13 +83,13 @@ const HeroMenu = () => {
                 Road map
               </Link>
             </li>
-            <li
+            {/* <li
               className={active == "Cryptonize Your Business" ? `nav-item active` : "nav-item"}
             >
               <Link className="nav-link" href="/signup">
               CoinsLab
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
