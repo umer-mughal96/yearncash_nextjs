@@ -49,11 +49,11 @@ const Header = ({handleParentDarkMode}) => {
                   Invest in YFIC
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/wallet">
                   Wallet
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="/promotion">
                   Promotions
@@ -74,11 +74,11 @@ const Header = ({handleParentDarkMode}) => {
                   Road map
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/signup">
                   CoinsLab
                 </a>
-              </li>
+              </li> */}
             </ul>
            
               <SocialMedia />
