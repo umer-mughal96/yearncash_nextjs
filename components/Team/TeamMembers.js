@@ -5,7 +5,7 @@ const TeamMembers = () => {
   return (
     <div>
       <div className="row text-center teammember-wrapper">
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        {/* <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
@@ -30,7 +30,7 @@ const TeamMembers = () => {
               <SocialMedia />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
@@ -45,7 +45,7 @@ const TeamMembers = () => {
                 <h3>Ryan Bettis</h3>
               </div>
               <div className="person-role">
-                <span>COO/Co-Founder</span>
+                <span>CEO/COO/Co-Founder</span>
               </div>
               <div className="person-desc">
                 <p>
@@ -57,7 +57,7 @@ const TeamMembers = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-6 col-lg-4 col-xl-4">
+        {/* <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
@@ -83,7 +83,7 @@ const TeamMembers = () => {
               <SocialMedia />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="col-md-6 col-lg-4 col-xl-4">
           <div className="testimonial-card-wrap">
             <div className="testimonial-card">
@@ -141,20 +141,20 @@ const TeamMembers = () => {
             <div className="testimonial-card">
               <div className="testimonial-img-wrap">
                 <img
-                  src="assets/images/team6.jpg"
+                  src="assets/images/team9.jpeg"
                   alt=""
                   className="testimonial-img"
                 />
               </div>
               <div className="person-name">
-                <h3>Likhon Sheikh</h3>
+                <h3>Ryan Mendonca </h3>
               </div>
               <div className="person-role">
-                <span>Creative Head</span>
+                <span>General Counsel</span>
               </div>
               <div className="person-desc">
                 <p>
-                  Creative Head to the team page.
+                General Counsel for Yearn Cash.
                 </p>
               </div>
               <SocialMedia />

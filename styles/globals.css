@@ -323,7 +323,7 @@ header {
 }
 
 .custom-nav {
-	max-width: 925px;
+	max-width: fit-content;
 	margin: auto;
 	padding: 48px 0px;
 }
@@ -1727,7 +1727,14 @@ footer .copyright-wrap span{
   color:#ffffff;
   text-decoration:underline;
 }
-
+.maintenance-wrapper .maintenance-img {
+  width: 20%;
+  margin: 0 auto;
+}
+.maintenance-wrapper .maintenance-text p span {
+  font-size: 24px;
+  font-family: "Poppins-SemiBold";
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
@@ -1738,6 +1745,9 @@ footer .copyright-wrap span{
   #navbarSupportedContent{
       width: auto;
   }
+  #navbarSupportedContent ul{
+    display: none;
+}
   #navbarSupportedContent .social-icons{
     margin-left: auto;
   }
@@ -2633,3 +2643,82 @@ footer .copyright-wrap span{
 .card {
   background-color: black !important;
 }
+
+/*--------------------------------------------------------------
+ 	Sign Up
+	--------------------------------------------------------------*/
+	.signup-page h1{
+		color: #143022;
+	}
+	.signup form{
+		max-width:441px;
+		margin: auto;
+	}
+	.signup form input:focus{
+		box-shadow: none;
+		border-color: #0B7F42 !important;
+	}
+	.signup form h2{
+		color: #0B7F42;
+		font-family: "poppins-regular";
+	}
+	.signup form p{
+		padding-bottom: 32px;
+	}
+	.signup form input{
+		border: 1px solid #0B7F42;
+		border-radius: 14px;
+		padding: 15px 16px;
+	}
+	.signup select{
+		border: 1px solid #0B7F42;
+		border-radius: 14px;
+		background: #F7FDFB;
+		padding: 15px 16px;
+		font-family: "poppins-regular";
+		color: #000000;
+		font-size: 14px;
+	}
+	.signup select.form-control:not([size]):not([multiple]) {
+		height: auto;
+	}
+	.signup select:focus{
+		border: 1px solid #0B7F42;
+		box-shadow: none;
+	}
+	.signup form input:not([type="submit"]){
+		background: #F7FDFB;
+	}
+  #gridCheck{
+    background-color: #0b7f42;
+    border: 1px solid #0B7F42;
+    padding: 0px;
+  }
+	.signup form a{
+		font-family: "poppins-semibold";
+		color: #0B7F42;
+	}
+	.signup form input::placeholder{
+		color: #000000;
+		font-size: 14px;
+		line-height: 21px;
+		font-family: "poppins-regular";
+	}
+	.signup form input[type="submit"]{
+		background: #0B7F42;
+		color: #FFFFFF;
+	}
+	.signup form .conditions{
+		font-size: 12px;
+	}
+	.signup form  .form-check{
+		padding-top: 4px;
+		padding-bottom: 28px;
+		text-align: left;
+	}
+  .signup form .form-group{
+    margin: 05px 0px;
+  }
+	/*--------------------------------------------------------------
+ 	Sign Up
+	--------------------------------------------------------------*/

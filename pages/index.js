@@ -535,11 +535,14 @@ export default function Home(props) {
                 {/* <a href="https://dancannabis.com/">
                 <img src="assets/images/wallet-new-logo.JPG" alt="" />
                 </a> */}
-                <a href="#">
+                <a href="https://chainlinklabs.com/">
                   <img src="assets/images/chainlinkLabsLogo.png" alt="" />
                 </a>
-                <a href="https://dancannabis.com/">
+                <a href="https://www.rfginvestments.com/">
                   <img src="assets/images/chainlinkLabsLogo2.JPG" alt="" />
+                </a>
+                <a href="https://www.cardcoins.co/">
+                  <img src="assets/images/CardCoins.jpg" alt="" />
                 </a>
               </div>
             </div>

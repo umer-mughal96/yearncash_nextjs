@@ -74,6 +74,11 @@ const Header = ({handleParentDarkMode}) => {
                   Road map
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="/signup">
+                Kryptopia
+                </a>
+              </li>
             </ul>
            
               <SocialMedia />

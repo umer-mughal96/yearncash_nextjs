@@ -97,9 +97,31 @@ const roadmap = (props) => {
                     </div>
                   </div>
                 </div>
+                <div className="containers left">
+                  <div className="content timeline-completed">
+                    <h2>08</h2>
+                    <div className="roadmap-image">
+                      <img src="assets/icons/p2b2b-rodemap.png" alt="" />{" "}
+                      <p>
+                        P2pb2b listing
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="containers right">
+                  <div className="content timeline-completed">
+                    <h2>09</h2>
+                    <div className="roadmap-image">
+                      <img src="assets/icons/apeswap.png" alt="" />{" "}
+                      <p>
+                        YFIC BSC ApeSwap listing
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div className="containers left white-check">
                   <div className="content">
-                    <h2>08</h2>
+                    <h2>10</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/bilaxy.svg" alt="" />{" "}
                       <p>Pre marketing campaign for potential exchange listing</p>
@@ -108,7 +130,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers right white-check">
                   <div className="content">
-                    <h2>09</h2>
+                    <h2>11</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/dollar.svg" alt="" />
                       <p>WhiteBit or premium exchange listing</p>
@@ -117,7 +139,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers left white-check">
                   <div className="content">
-                    <h2>10</h2>
+                    <h2>12</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/wallet.svg" alt="" />{" "}
                       <p>Implement YFIC for use on NFT platform as a payment option</p>
@@ -126,7 +148,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers right white-check">
                   <div className="content">
-                    <h2>11</h2>
+                    <h2>13</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/website.svg" alt="" />{" "}
                       <p>
@@ -137,7 +159,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers left white-check">
                   <div className="content">
-                    <h2>12</h2>
+                    <h2>14</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/wallet.svg" alt="" />{" "}
                       <p>YFIC to be used as an option for settling payments in the Marijuana Industry</p>
@@ -146,7 +168,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers right white-check">
                   <div className="content">
-                    <h2>13</h2>
+                    <h2>15</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/website.svg" alt="" />{" "}
                       <p>
@@ -157,7 +179,7 @@ const roadmap = (props) => {
                 </div>
                 <div className="containers left white-check">
                   <div className="content">
-                    <h2>14</h2>
+                    <h2>16</h2>
                     <div className="roadmap-image">
                       <img src="assets/icons/wallet.svg" alt="" />{" "}
                       <p>Find and conduct stake on partner platform</p>

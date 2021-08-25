@@ -29,6 +29,9 @@ const HeroMenu = () => {
     if (router.pathname == "/roadmap") {
       setActive("Road map");
     }
+    if (router.pathname == "/signup") {
+      setActive("Cryptonize Your Business");
+    }
   }, [router.pathname]);
 
   return (
@@ -78,6 +81,13 @@ const HeroMenu = () => {
             >
               <Link className="nav-link" href="/roadmap">
                 Road map
+              </Link>
+            </li>
+            <li
+              className={active == "Cryptonize Your Business" ? `nav-item active` : "nav-item"}
+            >
+              <Link className="nav-link" href="/signup">
+              Kryptopia
               </Link>
             </li>
           </ul>

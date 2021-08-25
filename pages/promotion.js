@@ -9,12 +9,27 @@ const promotion = (props) => {
 
     return (
         <div className="promotion-page">
+        {/* <div className="promotion-page"> */}
             <Layout title="Promotions" favicon="icons/horse.png"/>
             <SubHeader marqueeData={marqueeData} />
             {/* <!---------------------- Promotions Section ---------------------> */}
-            <div className="promotions">
+            <div className="promotions-content">
                 <div className="container-fluid">
-                    <div className="row">
+                <div className="maintenance-wrapper">
+                <div className="maintenance-contaioner">
+                    <div className="maintenance-img">
+                        <img src="assets/images/airdrop-logo.png" alt="" srcset="" />
+                    </div>
+                    <div className="maintenance-text">
+                        <h2>Airdrop Coming</h2>
+                        <p>
+                            <span>$5k worth of YFIC</span> 
+                        </p>
+                    </div>
+                </div> 
+               
+            </div>
+                    {/* <div className="row">
                         <div className="col-md-5 order-md-1 order-4  p-0">
                             <div className="panel  border-style-one">
                                 <p>Register to win this digital NFT<br /> racehorse "LAVAR" (0.2 ETH Value) by following all
@@ -225,7 +240,7 @@ const promotion = (props) => {
                             </div>
                         </div>
                         <div className="col-md-8"></div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

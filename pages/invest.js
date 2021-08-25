@@ -74,6 +74,11 @@ const Invest = (props) => {
                   <img src="assets/icons/Rectangle191.png" alt="" />
                 </div>
               </div>
+              <div className="col-md-4 col-sm-4 col-6">
+                <div className="exchange-image">
+                  <img src="assets/icons/p2b2b.png" alt="" />
+                </div>
+              </div>
             </div>
           </div>
 

@@ -218,13 +218,12 @@ const Wallet = (props) => {
                 <div className="col-md-6 col-lg-6 col-xl-6 order-md-2 order-1">
                   <div className="wallet-desc wallet-left-content">
                     <h2>
-                      Follow Our Telegram Channel{" "}
-                      <span style={{ color: "red" }}>By July 15th</span> To Join
+                      Follow Our Telegram Channel{" "} To Join
                       The Exclusive Beta Test! t.me/yearn_wallet{" "}
                     </h2>
                     <p>
                       We value our strong & intelligent community. That's why
-                      those who join our Telegram Channel on or before <span style={{ color: "red", fontWeight:800 }}>July,15th </span> 
+                      those who join our Telegram Channel
                       will be included in the Beta Test. We are very excited
                       about having our community involved in helping us make the
                       final touches before going live in the Android and iOS App
