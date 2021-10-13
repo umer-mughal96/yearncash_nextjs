@@ -7,7 +7,6 @@ import Model from "../components/Model/Model";
 
 var stringify = require("json-stringify-safe");
 
-
 export default function Home(props) {
   const [yfic, setYfic] = useState(JSON.parse(props.data));
   const [marqueeData, setMarqueeData] = useState(JSON.parse(props.coinsData));
